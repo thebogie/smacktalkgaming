@@ -4,11 +4,11 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/thebogie/stg-go-flutter/config"
-	"github.com/thebogie/stg-go-flutter/controllers"
-	"github.com/thebogie/stg-go-flutter/db"
-	"github.com/thebogie/stg-go-flutter/repos"
-	"github.com/thebogie/stg-go-flutter/services"
+	"github.com/thebogie/smacktalkgaming/config"
+	"github.com/thebogie/smacktalkgaming/controllers"
+	"github.com/thebogie/smacktalkgaming/db"
+	"github.com/thebogie/smacktalkgaming/repos"
+	"github.com/thebogie/smacktalkgaming/services"
 )
 
 var (

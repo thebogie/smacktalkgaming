@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/thebogie/stg-go-flutter/repos"
-	"github.com/thebogie/stg-go-flutter/types"
+	"github.com/thebogie/smacktalkgaming/repos"
+	"github.com/thebogie/smacktalkgaming/types"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

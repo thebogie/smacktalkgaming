@@ -1,6 +1,6 @@
 svelte attempt:
 
-https://github.com/thebogie/stg-go-flutter
+https://github.com/thebogie/smacktalkgaming
 
 
 flutter: https://github.com/KingWu/flutter_starter_kit

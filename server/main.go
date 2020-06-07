@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/thebogie/stg-go-flutter/app"
+	"github.com/thebogie/smacktalkgaming/app"
 )
 
 func main() {

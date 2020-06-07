@@ -6,8 +6,8 @@ import (
 
 	"encoding/json"
 
-	"github.com/thebogie/stg-go-flutter/config"
-	"github.com/thebogie/stg-go-flutter/types"
+	"github.com/thebogie/smacktalkgaming/config"
+	"github.com/thebogie/smacktalkgaming/types"
 
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"

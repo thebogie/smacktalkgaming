@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/thebogie/stg-go-flutter/services"
+	"github.com/thebogie/smacktalkgaming/services"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

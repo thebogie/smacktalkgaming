@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/thebogie/stg-go-flutter/config"
+	"github.com/thebogie/smacktalkgaming/config"
 
 	"github.com/labstack/gommon/log"
 	"go.mongodb.org/mongo-driver/mongo"

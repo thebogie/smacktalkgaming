@@ -3,9 +3,9 @@ package services
 import (
 	//"errors"
 
-	"github.com/thebogie/stg-go-flutter/config"
-	"github.com/thebogie/stg-go-flutter/repos"
-	"github.com/thebogie/stg-go-flutter/types"
+	"github.com/thebogie/smacktalkgaming/config"
+	"github.com/thebogie/smacktalkgaming/repos"
+	"github.com/thebogie/smacktalkgaming/types"
 )
 
 // UserService interface

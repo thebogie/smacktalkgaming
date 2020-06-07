@@ -27,8 +27,8 @@ EXPOSE 5000
 
 
 #FROM golang:latest
-#WORKDIR /go/src/github.com/thebogie/stg-go-flutter/server
-#COPY . /go/src/github.com/thebogie/stg-go-flutter/server
+#WORKDIR /go/src/github.com/thebogie/smacktalkgaming/server
+#COPY . /go/src/github.com/thebogie/smacktalkgaming/server
 #RUN CGO_ENABLED=0 go build -a -installsuffix cgo -o ./dist/example
 
 #FROM alpine:latest
@@ -41,7 +41,7 @@ EXPOSE 5000
 #WORKDIR /app
 #COPY ./config/config.yaml /var/app/
 #COPY ./config/config.yaml /
-#COPY --from=builder go/src/github.com/thebogie/stg-go-flutter/dist/example .
+#COPY --from=builder go/src/github.com/thebogie/smacktalkgaming/dist/example .
 
 #ENV PORT=9090
 #EXPOSE $PORT

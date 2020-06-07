@@ -15,8 +15,8 @@ import (
 
 	"golang.org/x/crypto/argon2"
 
-	"github.com/thebogie/stg-go-flutter/config"
-	"github.com/thebogie/stg-go-flutter/types"
+	"github.com/thebogie/smacktalkgaming/config"
+	"github.com/thebogie/smacktalkgaming/types"
 )
 
 // FetchWordnikWord returns one word

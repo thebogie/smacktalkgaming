@@ -6,9 +6,9 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/thebogie/stg-go-flutter/config"
-	"github.com/thebogie/stg-go-flutter/services"
-	"github.com/thebogie/stg-go-flutter/types"
+	"github.com/thebogie/smacktalkgaming/config"
+	"github.com/thebogie/smacktalkgaming/services"
+	"github.com/thebogie/smacktalkgaming/types"
 	//"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

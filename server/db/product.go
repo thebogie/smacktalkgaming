@@ -3,7 +3,7 @@ package db
 import (
 	"fmt"
 
-	"github.com/thebogie/stg-go-flutter/types"
+	"github.com/thebogie/smacktalkgaming/types"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 

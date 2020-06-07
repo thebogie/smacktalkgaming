@@ -13,9 +13,9 @@ import (
 	"github.com/labstack/echo/middleware"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/thebogie/stg-go-flutter/handler"
-	"github.com/thebogie/stg-go-flutter/middlewares"
-	"github.com/thebogie/stg-go-flutter/types"
+	"github.com/thebogie/smacktalkgaming/handler"
+	"github.com/thebogie/smacktalkgaming/middlewares"
+	"github.com/thebogie/smacktalkgaming/types"
 )
 
 // TestGetAllProducts is func test get all product - all case

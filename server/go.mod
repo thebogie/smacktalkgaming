@@ -1,4 +1,4 @@
-module github.com/thebogie/stg-go-flutter
+module github.com/thebogie/smacktalkgaming
 
 go 1.14
 
