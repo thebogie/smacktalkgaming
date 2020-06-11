@@ -7,3 +7,4 @@ server/__debug_bin
 server/.netrc
 server/log/contests.json
 server/log/general-log.log
+pushit.sh

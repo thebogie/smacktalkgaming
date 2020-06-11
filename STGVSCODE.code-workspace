@@ -7,8 +7,8 @@
 		  },
 		{
 			// flutter code
-			"name": "stg_svelte",
-			"path": "stg_svelte"
+			"name": "frontend",
+			"path": "frontend"
 		  },
 		  {
 			// Docs and release notes
