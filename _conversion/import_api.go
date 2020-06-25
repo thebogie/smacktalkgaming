@@ -31,6 +31,8 @@ type UserObj struct {
 
 func main() {
 
+	site := "http://localhost:5000/api/"
+
 	//timelayout := "2006-01-02T15:04:05"
 
 	//timelayout := "2006-01-02T15:04:05-07:00"
@@ -77,7 +79,7 @@ func main() {
 				//log.Printf("JSON%+v", spew.Sdump(user))
 				//log.Printf("marhalled%+v", spew.Sdump(requestByte))
 
-				resp, err := http.Post("http://localhost:9090/api/register", "application/json", bytes.NewReader(requestByte))
+				resp, err := http.Post(site+"register", "application/json", bytes.NewReader(requestByte))
 				if err != nil {
 					log.Fatalln(err)
 				}
@@ -103,7 +105,7 @@ func main() {
 				log.Fatalln(err)
 			}
 
-			resp, err := http.Post("http://localhost:9090/api/contest", "application/json", bytes.NewBuffer((requestBody)))
+			resp, err := http.Post(site+"contest", "application/json", bytes.NewBuffer((requestBody)))
 			if err != nil {
 				log.Fatalln(err)
 			}

@@ -5,4 +5,5 @@ yarn-error.log
 /cypress/screenshots/
 /.sessions/
 /__sapper__/
+package-lock.json
 .env
