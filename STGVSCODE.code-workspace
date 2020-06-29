@@ -15,5 +15,9 @@
 			"name": "server",
 			"path": "server"
 		  },
+{
+"name": "caddy",
+"path": "caddy"
+},
 	]
 }

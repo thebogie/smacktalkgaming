@@ -4,16 +4,23 @@ networks:
     driver: bridge
 
 services:
-  apache:
-    image: "bitnami/apache:latest"
-    #ports:
-    #  - "80:5000"
-    #  - "443:8443"
-    container_name: apache
+
+  caddy:
+    image: "abiosoft/caddy"
+    container_name: caddy
+    links:
+      - stgapp
     networks:
       - app-tier
+    ports:
+      - 80:80
+      - 443:443
     volumes:
-      - ./apache/my_vhost.conf:/vhosts/my_vhost.conf:ro
+      - /home/thebogie/work/smacktalkgaming/caddy/srv:/www
+      #- /home/thebogie/work/smacktalkgaming/caddy/srv/smacktalkgaming.com:/www/smacktalkgaming.com
+      - /home/thebogie/work/smacktalkgaming/caddy/config/Caddyfile:/etc/Caddyfile
+      - /home/thebogie/work/smacktalkgaming/caddy/.caddyCerts:/etc/caddycerts
+      - /home/thebogie/work/smacktalkgaming/caddy/logs:/logs
 
   mongodb:
     image: mongo:latest
@@ -25,14 +32,13 @@ services:
     ports:
       - 27017:27017
     command: mongod
-    depends_on:
-      - apache
+
     networks:
       - app-tier
 
-  app:
+  stgserver:
     #command: --security-opt=seccomp:unconfined
-    container_name: stgapp
+    container_name: stgserver
     build:
       context: ./server
       args:
@@ -41,11 +47,26 @@ services:
     #  - ./server:/go/src/STG/app
     ports:
       - 5000:5000
-    depends_on:
-      - mongodb
-      - apache
+  
     links:
       - mongodb
+    networks:
+      - app-tier
+
+  stgapp:
+    #command: --security-opt=seccomp:unconfined
+    container_name: stgapp
+    build:
+      context: ./frontend
+      args:
+        app_env: ${APP_ENV}
+    #volumes:
+    #  - ./server:/go/src/STG/app
+    ports:
+      - 3000:3000
+    depends_on:
+      - mongodb
+      - stgserver
     networks:
       - app-tier
   #frontend:
@@ -59,3 +80,23 @@ services:
   #  ports:
   #    - "3000:3000"
   #    - "9229:9229"
+
+
+   #apache:
+  #  image: "bitnami/apache:latest"
+    #ports:
+    #  - "80:5000"
+    #  - "443:8443"
+   # container_name: apache
+   # networks:
+    #  - app-tier
+   # ports:
+    #  - 80:8080
+    #  - 443:8443
+   # volumes:
+    #  - /home/thebogie/work/smacktalkgaming/apache/my_vhost.conf:/vhosts/my_vhost.conf:ro
+      #- ./certs:/certs
+     # - /home/thebogie/work/smacktalkgaming/apache/mitchgottlieb.com:/app
+      #- /home/thebogie/work/smacktalkgaming/apache/smacktalkgaming.com:/app/smacktalkgaming.com
+
+

@@ -1,0 +1,8 @@
+mitchgottlieb.com {
+    root /www/mitchgottlieb.com
+}
+
+smacktalkgaming.com {
+   
+    proxy / stgapp:3000
+}
