@@ -1,4 +1,4 @@
-version: "3.5"
+version: "3.7"
 networks:
   app-tier:
     driver: bridge
@@ -14,10 +14,12 @@ services:
       - /home/thebogie/work/smacktalkgaming/nginx/nginx.conf:/etc/nginx/nginx.conf
       - /home/thebogie/work/smacktalkgaming/nginx/error.log:/etc/nginx/error_log.log
       - /home/thebogie/work/smacktalkgaming/nginx/cache/:/etc/nginx/cache
-      - /home/thebogie/work/smacktalkgaming/nginx/letsencrypt/:/etc/letsencrypt/
+      - /etc/letsencrypt/:/etc/letsencrypt/
       - /home/thebogie/work/smacktalkgaming/nginx/srv/mitchgottlieb.com:/www/mitchgottlieb.com
       - /home/thebogie/work/smacktalkgaming/nginx/srv/smacktalkgaming.com:/www/smacktalkgaming.com
 
+    networks:
+      - app-tier
     ports:
       - 80:80
       - 443:443
