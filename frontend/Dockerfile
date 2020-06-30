@@ -6,9 +6,13 @@ COPY . /frontend
 
 COPY .env.prod /frontend/.env
 
-
-CMD npm install; npm run dev
-#RUN npm run build; npm run start
-#CMD tail -f /dev/null
+CMD if [ ${APP_ENV} = production ]; \
+    then \
+    npm run build; \
+    npm run start; \
+    else \
+    npm install; \
+    npm run dev;  \
+    fi
 
 EXPOSE 3000

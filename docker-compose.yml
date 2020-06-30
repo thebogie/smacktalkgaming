@@ -5,28 +5,29 @@ networks:
 
 services:
 
-  caddy:
-    image: "abiosoft/caddy"
-    container_name: caddy
-    links:
-      - stgapp
-    networks:
-      - app-tier
+  nginx:
+    image: "nginx:latest"
+    container_name: nginx
+    environment:
+      - APP_ENV=${APP_ENV}
+    volumes:
+      - /home/thebogie/work/smacktalkgaming/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - /home/thebogie/work/smacktalkgaming/nginx/error.log:/etc/nginx/error_log.log
+      - /home/thebogie/work/smacktalkgaming/nginx/cache/:/etc/nginx/cache
+      - /home/thebogie/work/smacktalkgaming/nginx/letsencrypt/:/etc/letsencrypt/
+      - /home/thebogie/work/smacktalkgaming/nginx/srv/mitchgottlieb.com:/www/mitchgottlieb.com
+      - /home/thebogie/work/smacktalkgaming/nginx/srv/smacktalkgaming.com:/www/smacktalkgaming.com
+
     ports:
       - 80:80
       - 443:443
-    volumes:
-      - /home/thebogie/work/smacktalkgaming/caddy/srv:/www
-      #- /home/thebogie/work/smacktalkgaming/caddy/srv/smacktalkgaming.com:/www/smacktalkgaming.com
-      - /home/thebogie/work/smacktalkgaming/caddy/config/Caddyfile:/etc/Caddyfile
-      - /home/thebogie/work/smacktalkgaming/caddy/.caddyCerts:/etc/caddycerts
-      - /home/thebogie/work/smacktalkgaming/caddy/logs:/logs
 
   mongodb:
     image: mongo:latest
     container_name: mongodb
     environment:
       - MONGO_DATA_DIR=/data/db
+      - APP_ENV=${APP_ENV}
     volumes:
       - /home/thebogie/work/stgdata:/data/db
     ports:
@@ -39,29 +40,26 @@ services:
   stgserver:
     #command: --security-opt=seccomp:unconfined
     container_name: stgserver
+    environment:
+      - APP_ENV=${APP_ENV}
     build:
       context: ./server
-      args:
-        app_env: ${APP_ENV}
-    #volumes:
-    #  - ./server:/go/src/STG/app
+
     ports:
       - 5000:5000
-  
+
     links:
       - mongodb
     networks:
       - app-tier
 
   stgapp:
-    #command: --security-opt=seccomp:unconfined
     container_name: stgapp
+    environment:
+      - APP_ENV=${APP_ENV}
     build:
       context: ./frontend
-      args:
-        app_env: ${APP_ENV}
-    #volumes:
-    #  - ./server:/go/src/STG/app
+
     ports:
       - 3000:3000
     depends_on:
@@ -80,23 +78,37 @@ services:
   #  ports:
   #    - "3000:3000"
   #    - "9229:9229"
-
-
-   #apache:
+  #apache:
   #  image: "bitnami/apache:latest"
-    #ports:
-    #  - "80:5000"
-    #  - "443:8443"
-   # container_name: apache
-   # networks:
-    #  - app-tier
-   # ports:
-    #  - 80:8080
-    #  - 443:8443
-   # volumes:
-    #  - /home/thebogie/work/smacktalkgaming/apache/my_vhost.conf:/vhosts/my_vhost.conf:ro
-      #- ./certs:/certs
-     # - /home/thebogie/work/smacktalkgaming/apache/mitchgottlieb.com:/app
-      #- /home/thebogie/work/smacktalkgaming/apache/smacktalkgaming.com:/app/smacktalkgaming.com
-
-
+  #ports:
+  #  - "80:5000"
+  #  - "443:8443"
+  # container_name: apache
+  # networks:
+  #  - app-tier
+  # ports:
+  #  - 80:8080
+  #  - 443:8443
+  # volumes:
+  #  - /home/thebogie/work/smacktalkgaming/apache/my_vhost.conf:/vhosts/my_vhost.conf:ro
+  #- ./certs:/certs
+  # - /home/thebogie/work/smacktalkgaming/apache/mitchgottlieb.com:/app
+  #- /home/thebogie/work/smacktalkgaming/apache/smacktalkgaming.com:/app/smacktalkgaming.com
+# caddy:
+#   image: "caddy:latest"
+##   container_name: caddy
+#   environment:
+#     - ACME_AGRE=true
+#   cap_add:
+#     - CAP_NET_BIND_SERVICE
+#   networks:
+#     - app-tier
+#   ports:
+#     - 80:80
+#    - 443:443
+#  volumes:
+#    - /home/thebogie/work/smacktalkgaming/caddy/srv:/www
+#- /home/thebogie/work/smacktalkgaming/caddy/srv/smacktalkgaming.com:/www/smacktalkgaming.com
+#    - /home/thebogie/work/smacktalkgaming/caddy/config/Caddyfile:/etc/Caddyfile
+##    - /home/thebogie/work/smacktalkgaming/caddy/.caddyCerts:/etc/caddycerts
+#   - /home/thebogie/work/smacktalkgaming/caddy/logs:/logs

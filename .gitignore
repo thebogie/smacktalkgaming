@@ -1,4 +1,4 @@
-flutter/stg/pubspec.lock
+
 .vscode/launch.json
 _conversion/stg_records.json
 server/server
@@ -6,5 +6,5 @@ server/smacktalkgaming
 server/__debug_bin
 server/.netrc
 server/log/contests.json
-server/log/general-log.log
 pushit.sh
+_archive

@@ -1,9 +1,0 @@
-
-
-FROM caddy:latest
-# Copy the code from the host and compile it
-WORKDIR /caddy
-
-COPY ./config/Caddyfile /etc/caddy/Caddyfile
-COPY ./srv/src /mitchgottlieb.com
-

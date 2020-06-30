@@ -64,7 +64,9 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 *** CODE NOTES ***
 FORMAT STRING: 2006-01-02T15:04:05.999999-07:00
 
- clear ; docker image prune -f ; docker-compose up --build
+DOCKER-compose DEV:
+clear ; docker image prune -f ; APP_ENV=dev docker-compose up --build
+
 
 
 wordnik api: 

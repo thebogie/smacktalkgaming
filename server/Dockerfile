@@ -15,7 +15,7 @@ RUN go mod download
 # if production setting will build binary
 CMD if [ ${APP_ENV} = production ]; \
 	then \
-	api; \
+	GIN_MODE=release go run main.go ; \ 
 	else \
 	go get github.com/pilu/fresh && \
 	fresh; \
