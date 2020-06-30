@@ -7,5 +7,5 @@
    again. To non-interactively renew *all* of your certificates, run
    "certbot renew"
 
-   sudo certbot certonly --nginx
+   sudo certbot certonly
 sudo certbot renew --dry-run
