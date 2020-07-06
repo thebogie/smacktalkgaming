@@ -2,20 +2,25 @@ FROM nginx:1.19.0-alpine
 
 COPY . /nginxdrop
 
-RUN \
+# Define working directory.
+WORKDIR /etc/nginx
+
+CMD \
     if [ "${APP_ENV}" = "production" ] ;\ 
     then \
     echo "PRODUCTION SETUP"; \
     cp /nginxdrop/nginx.conf /etc/nginx/nginx.conf; \
+    nginx; \
     else \
     echo "DEVEOLPMENT SETUP"; \
     cp /nginxdrop/nginx.dev.conf /etc/nginx/nginx.conf; \
+    nginx; \
     fi
 
-#RUN /usr/local/nginx/sbin/nginx
-#ENTRYPOINT ["tail", "-f", "/dev/null"]
-CMD ["nginx", "-g", "daemon off;"]
-#CMD ["tail", "-f", "/dev/null"]
+
+
+# Define default command.
+#CMD ["nginx"]
 
 EXPOSE 80 
 EXPOSE 443
