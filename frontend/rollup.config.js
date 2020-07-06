@@ -13,7 +13,7 @@ dotenv.config()
 const mode = process.env.NODE_ENV;
 const dev = mode === 'development';
 const legacy = !!process.env.SAPPER_LEGACY_BUILD;
-const apiBaseUrl = process.env.API_BASE_URL || 'http://localhost:5000';
+const apiBaseUrl = process.env.API_BASE_URL || 'http://stgserver:5000/api';
 
 const onwarn = (warning, onwarn) => (warning.code === 'CIRCULAR_DEPENDENCY' && /[/\\]@sapper[/\\]/.test(warning.message)) || onwarn(warning);
 const dedupe = importee => importee === 'svelte' || importee.startsWith('svelte/');

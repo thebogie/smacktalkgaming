@@ -6,18 +6,19 @@ networks:
 services:
 
   nginx:
-    image: "nginx:latest"
     container_name: nginx
+    build:
+      context: ./nginx
     environment:
       - APP_ENV=${APP_ENV}
     volumes:
-      - /home/thebogie/work/smacktalkgaming/nginx/nginx.conf:/etc/nginx/nginx.conf
       - /home/thebogie/work/smacktalkgaming/nginx/error.log:/etc/nginx/error_log.log
       - /home/thebogie/work/smacktalkgaming/nginx/cache/:/etc/nginx/cache
       - /etc/letsencrypt/:/etc/letsencrypt/
       - /home/thebogie/work/smacktalkgaming/nginx/srv/mitchgottlieb.com:/www/mitchgottlieb.com
       - /home/thebogie/work/smacktalkgaming/nginx/srv/smacktalkgaming.com:/www/smacktalkgaming.com
-
+    depends_on:
+      - stgapp
     networks:
       - app-tier
     ports:
@@ -50,8 +51,6 @@ services:
     ports:
       - 5000:5000
 
-    links:
-      - mongodb
     networks:
       - app-tier
 
@@ -64,6 +63,7 @@ services:
 
     ports:
       - 3000:3000
+      - 10000:10000
     depends_on:
       - mongodb
       - stgserver
