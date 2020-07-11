@@ -17,7 +17,7 @@
   		class="logo"
   		href="/"
   	>
-  		News App
+  		Smacktalk Gaming
   	</a>
   </div>
   <div class="navbar-right">

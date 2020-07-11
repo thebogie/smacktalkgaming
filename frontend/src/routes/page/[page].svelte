@@ -7,7 +7,7 @@
 </script>
 
 <script>
-  import Home from '../_components/Home.svelte'
+  import Home from '../_components/Home/Home.svelte'
 
   export let currentPage
 </script>
