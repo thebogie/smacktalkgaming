@@ -11,14 +11,13 @@
   async function submit () {
     try {
       inProgress = true
-          console.log("HERE:" )
       const response = await axios.post('/auth/login', user)
  
       $session.user = response.data
       inProgress = false
       error = null
       user = { email: '', password: '' }
-      goto('/')
+      goto('/user')
     } catch (err) {
       error = err.response.data.message
       inProgress = false

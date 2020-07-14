@@ -1,11 +1,8 @@
 server:
 add jwt
 
-flutter:
-call API login through flutter app
 
-apache:
-figure out how to pass through calls like https://smacktalkgaming.com -> http://stgapp:5000/api
+
 
 - save start end dates/time in date format for sending to mongo
 - clean up the other handlers to follow the same format as Record

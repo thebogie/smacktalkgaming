@@ -35,7 +35,7 @@
         href="/story/create"
         class="new-story-button primary-button"
       >
-        New Story
+        Enter Contest
       </a>
     {:else}
       <a

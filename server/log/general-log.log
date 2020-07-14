@@ -6,3 +6,17 @@
 [34m  INFO[0m[8711] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
 [33m  WARN[0m[9494] PASSWRODCONFIG: &{1 65536 4 0}
 [34m  INFO[0m[9494] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
+[33m  WARN[0m[14582] PASSWRODCONFIG: &{1 65536 4 0}
+[34m  INFO[0m[14582] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
+[33m  WARN[0m[19799] PASSWRODCONFIG: &{1 65536 4 0}
+[34m  INFO[0m[19799] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
+[33m  WARN[0m[21071] PASSWRODCONFIG: &{1 65536 4 0}
+[33m  WARN[0m[21071] WRONG PASSWORD SEND BACK TO LOGIN OR REGIESTER
+[33m  WARN[0m[21076] PASSWRODCONFIG: &{1 65536 4 0}
+[34m  INFO[0m[21076] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
+[33m  WARN[0m[21117] PASSWRODCONFIG: &{1 65536 4 0}
+[34m  INFO[0m[21117] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
+[33m  WARN[0m[22058] PASSWRODCONFIG: &{1 65536 4 0}
+[34m  INFO[0m[22058] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
+[33m  WARN[0m[23398] PASSWRODCONFIG: &{1 65536 4 0}
+[34m  INFO[0m[23398] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
