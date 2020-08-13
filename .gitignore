@@ -8,3 +8,12 @@ server/.netrc
 server/log/contests.json
 pushit.sh
 _archive
+server/log/general-log.log
+_conversion/stg_records copy.json
+frontend/_WORK/user/view.work
+frontend/_WORK/user/[id]/edit.work
+frontend/_WORK/user/[id]/index.work
+frontend/_WORK/Users/index.work
+frontend/_WORK/Users/User.work
+frontend/_WORK/user/[id]/edit.work
+frontend/_WORK/user/[id]/index.work

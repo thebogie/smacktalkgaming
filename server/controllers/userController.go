@@ -12,25 +12,30 @@ import (
 	"github.com/thebogie/smacktalkgaming/types"
 
 	"github.com/dgrijalva/jwt-go"
-	//"go.mongodb.org/mongo-driver/bson/primitive"
+	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
 // UserController interface
 type UserController interface {
 	Register(*gin.Context)
 	Login(*gin.Context)
+	UpdateUser(*gin.Context)
+	GetUser(*gin.Context)
+	GetUserStats(*gin.Context)
 }
 
 type userController struct {
 	us      services.UserService
+	cs      services.ContestService
 	pwdhash types.PasswordConfig
 }
 
 // NewUserController instantiates User Controller
 func NewUserController(
-	us services.UserService) UserController {
+	us services.UserService, cs services.ContestService) UserController {
 	return &userController{
 		us: us,
+		cs: cs,
 		pwdhash: types.PasswordConfig{
 			config.Config.Password.Time,
 			config.Config.Password.Memory,
@@ -154,9 +159,84 @@ func (ctl *userController) Login(c *gin.Context) {
 	//c.SetCookie("token", tokenString, 604800, "/", "", false, true)
 
 	c.JSON(http.StatusOK, gin.H{
-		"email": player.Email,
-		"token": tokenString,
+		"email":  player.Email,
+		"userid": player.Userid,
+		"token":  tokenString,
 	})
 	config.Apex.Infof("Logged in player:%+v", player)
 
+}
+
+// @Summary Register new user
+// @Produce  json
+// @Param email body string true "Email"
+// @Param password body string true "Password"
+// @Success 200 {object} Response
+// @Failure 400 {object} Response
+// @Failure 500 {object} Response
+// @Router /api/register [post]
+func (ctl *userController) GetUser(c *gin.Context) {
+
+	var player types.User
+
+	objid, err := primitive.ObjectIDFromHex(c.Params.ByName("userid"))
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"msg": "userid incorrect"})
+		return
+	}
+
+	player.Userid = objid
+
+	if !ctl.us.GetUserByObjectID(&player) {
+		c.JSON(http.StatusBadRequest, gin.H{"msg": "userid not found"})
+		return
+	}
+
+	c.JSON(http.StatusOK, player)
+	config.Apex.Infof("Getting user now %s", player)
+}
+
+// @Summary Get a list of stats across a timeperiod
+// @Produce  json
+// @Param userid
+// @Param timeperiod
+// @Success 200 {object} Response
+// @Failure 400 {object} Response
+// @Failure 500 {object} Response
+// @Router /api/:userid/stats [GET]
+func (ctl *userController) GetUserStats(c *gin.Context) {
+
+	var contestlist []types.Contest
+	var contestlistfinal []types.Contest
+
+	daterange, err := time.Parse("01022006", c.Params.ByName("daterange"))
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"msg": "daterange incorrect"})
+		return
+	}
+
+	objid, err := primitive.ObjectIDFromHex(c.Params.ByName("userid"))
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"msg": "userid incorrect"})
+		return
+	}
+
+	contestlist = ctl.cs.GetUserContestsByDateRange(objid, daterange)
+
+	for _, contest := range contestlist {
+		for _, stats := range contest.Outcome {
+
+			//user was in contest
+			if stats.Playerid == objid {
+				contestlistfinal = append(contestlistfinal, contest)
+			}
+
+		}
+	}
+
+	c.JSON(http.StatusOK, contestlistfinal)
+	config.Apex.Infof("FOUND %v", contestlistfinal)
+}
+
+func (ctl *userController) UpdateUser(c *gin.Context) {
 }

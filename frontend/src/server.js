@@ -11,11 +11,12 @@ const FileStore = sessionFileStore(session)
 const { PORT, NODE_ENV } = process.env;
 const dev = NODE_ENV === 'development';
 
+
 polka() // You can also use Express
 	.use(
     bodyParser.json(),
     session({
-      secret: 'yoursessionsecretkey',
+      secret: 'letmeinSTG',
       resave: false,
       saveUninitialized: true,
       cookie: {

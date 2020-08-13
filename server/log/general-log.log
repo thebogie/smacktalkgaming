@@ -1,22 +1,439 @@
-[33m  WARN[0m[8703] PASSWRODCONFIG: &{1 65536 4 0}
-[34m  INFO[0m[8703] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
-[33m  WARN[0m[8708] PASSWRODCONFIG: &{1 65536 4 0}
-[34m  INFO[0m[8708] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
-[33m  WARN[0m[8711] PASSWRODCONFIG: &{1 65536 4 0}
-[34m  INFO[0m[8711] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
-[33m  WARN[0m[9494] PASSWRODCONFIG: &{1 65536 4 0}
-[34m  INFO[0m[9494] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
-[33m  WARN[0m[14582] PASSWRODCONFIG: &{1 65536 4 0}
-[34m  INFO[0m[14582] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
-[33m  WARN[0m[19799] PASSWRODCONFIG: &{1 65536 4 0}
-[34m  INFO[0m[19799] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
-[33m  WARN[0m[21071] PASSWRODCONFIG: &{1 65536 4 0}
-[33m  WARN[0m[21071] WRONG PASSWORD SEND BACK TO LOGIN OR REGIESTER
-[33m  WARN[0m[21076] PASSWRODCONFIG: &{1 65536 4 0}
-[34m  INFO[0m[21076] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
-[33m  WARN[0m[21117] PASSWRODCONFIG: &{1 65536 4 0}
-[34m  INFO[0m[21117] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
-[33m  WARN[0m[22058] PASSWRODCONFIG: &{1 65536 4 0}
-[34m  INFO[0m[22058] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
-[33m  WARN[0m[23398] PASSWRODCONFIG: &{1 65536 4 0}
-[34m  INFO[0m[23398] Logged in player:{Userid:ObjectID("5ee24e4dcf1d118ccf3a074a") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$KmGLtdQKG573OvSAd+JIeg$Qj/b6USaK+VpfAb5vCrpnFEwmh5aMCwKs6m8Y+vhTTY Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
+[34m  INFO[0m[1328] ERR: <nil>               
+[34m  INFO[0m[1328] CURSOR: &{Current: bc:0xc00031c6e0 batch:<nil> batchLength:17 registry:0xc0003824d0 clientSession:0xc0000ca240 err:<nil>}
+[34m  INFO[0m[1328] {ObjectID("5f32bea8d9bd97944bcb3cbd") 2014-09-13 01:00:00 +0000 UTC -05:00 2014-09-13 02:00:00 +0000 UTC -05:00 The innocuousness supernaculum [{ObjectID("5f32bea6d9bd97944bcb3cad") 3 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bea7d9bd97944bcb3cbc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[1328] {ObjectID("5f32bed5d9bd97944bcb3cbf") 2015-12-26 04:30:00 +0000 UTC -05:00 2015-12-26 06:10:00 +0000 UTC -05:00 The sail-room pseudoneglect [{ObjectID("5f32bea6d9bd97944bcb3cb0") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb1") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bed5d9bd97944bcb3cbe")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[1328] {ObjectID("5f32bf02d9bd97944bcb3cc2") 2015-12-26 22:00:00 +0000 UTC -05:00 2015-12-26 23:00:00 +0000 UTC -05:00 The margaret mead towerlike [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb2") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb3") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb6") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost}] [ObjectID("5f32bf02d9bd97944bcb3cc1")] ObjectID("5f32bf02d9bd97944bcb3cc0") false}
+[34m  INFO[0m[1328] {ObjectID("5f32bf2fd9bd97944bcb3cc4") 2015-12-26 23:30:00 +0000 UTC -05:00 2015-12-27 01:00:00 +0000 UTC -05:00 The miswritten sharpener [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32bf2fd9bd97944bcb3cc3")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[1328] {ObjectID("5f32bf5dd9bd97944bcb3cc6") 2015-12-28 22:40:00 +0000 UTC -05:00 2015-12-28 23:40:00 +0000 UTC -05:00 The slava praty [{ObjectID("5f32bea6d9bd97944bcb3cb4") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bf5cd9bd97944bcb3cc5")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[1328] {ObjectID("5f32bf8ad9bd97944bcb3cc8") 2015-12-29 00:40:00 +0000 UTC -05:00 2015-12-29 01:40:00 +0000 UTC -05:00 The placeman chinguard [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 3 lost}] [ObjectID("5f32bf8ad9bd97944bcb3cc7")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[1328] {ObjectID("5f32bfb7d9bd97944bcb3cca") 2015-12-31 19:25:00 +0000 UTC -05:00 2015-12-31 20:25:00 +0000 UTC -05:00 The ilala coxendix [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won}] [ObjectID("5f32bfb7d9bd97944bcb3cc9")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[1328] {ObjectID("5f32bfe4d9bd97944bcb3ccd") 2017-06-27 01:01:00 +0000 UTC -05:00 2017-06-27 02:00:00 +0000 UTC -05:00 The restaurant torrid [{ObjectID("5f32bea7d9bd97944bcb3cb7") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bfe4d9bd97944bcb3ccc")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[1328] {ObjectID("5f32c012d9bd97944bcb3ccf") 2017-06-27 03:01:00 +0000 UTC -05:00 2017-06-27 04:00:00 +0000 UTC -05:00 The chin-music heraldically [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb7") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[1328] {ObjectID("5f32c03fd9bd97944bcb3cd1") 2017-06-30 01:00:00 +0000 UTC -05:00 2017-06-30 02:00:00 +0000 UTC -05:00 The mojados tetrazene [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[1328] {ObjectID("5f32c06cd9bd97944bcb3cd2") 2017-06-30 02:01:00 +0000 UTC -05:00 2017-06-30 03:00:00 +0000 UTC -05:00 The Obwalden potshard [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[1328] {ObjectID("5f32c09ad9bd97944bcb3cd4") 2017-06-30 03:01:00 +0000 UTC -05:00 2017-06-30 04:55:00 +0000 UTC -05:00 The condensing wood-honey [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cad") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c099d9bd97944bcb3cd3")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[1328] {ObjectID("5f32c0c7d9bd97944bcb3cd7") 2017-07-05 19:00:00 +0000 UTC -04:00 2017-07-05 20:00:00 +0000 UTC -04:00 The RUMINT Monterey [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[1328] {ObjectID("5f32c0f4d9bd97944bcb3cd8") 2017-07-05 20:01:00 +0000 UTC -04:00 2017-07-05 21:00:00 +0000 UTC -04:00 The carob ecclesiolatry [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[1328] {ObjectID("5f32c121d9bd97944bcb3cdb") 2017-07-09 17:00:00 +0000 UTC -05:00 2017-07-09 18:00:00 +0000 UTC -05:00 The varsovienne clapperboards [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c121d9bd97944bcb3cda")] ObjectID("5f32c121d9bd97944bcb3cd9") false}
+[34m  INFO[0m[1328] {ObjectID("5f32c14fd9bd97944bcb3cdd") 2020-02-28 00:46:00 +0000 UTC -05:00 2020-02-28 01:05:00 +0000 UTC -05:00 The whitster trangle [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[1328] {ObjectID("5f32c17cd9bd97944bcb3cde") 2020-02-28 01:10:00 +0000 UTC -05:00 2020-02-28 01:55:00 +0000 UTC -05:00 The Greco-Roman tail-head [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[1328] FOUND []                 
+[34m  INFO[0m[0009] {ObjectID("5f32bea8d9bd97944bcb3cbd") 2014-09-13 01:00:00 +0000 UTC -05:00 2014-09-13 02:00:00 +0000 UTC -05:00 The innocuousness supernaculum [{ObjectID("5f32bea6d9bd97944bcb3cad") 3 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bea7d9bd97944bcb3cbc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0050] START: 2014-09-13 01:00:00 +0000 UTC
+[34m  INFO[0m[0054] DIFF: true               
+[34m  INFO[0m[0089] {ObjectID("5f32bed5d9bd97944bcb3cbf") 2015-12-26 04:30:00 +0000 UTC -05:00 2015-12-26 06:10:00 +0000 UTC -05:00 The sail-room pseudoneglect [{ObjectID("5f32bea6d9bd97944bcb3cb0") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb1") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bed5d9bd97944bcb3cbe")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0089] START: 2015-12-26 04:30:00 +0000 UTC
+[34m  INFO[0m[0089] DIFF: true               
+[34m  INFO[0m[0090] {ObjectID("5f32bf02d9bd97944bcb3cc2") 2015-12-26 22:00:00 +0000 UTC -05:00 2015-12-26 23:00:00 +0000 UTC -05:00 The margaret mead towerlike [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb2") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb3") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb6") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost}] [ObjectID("5f32bf02d9bd97944bcb3cc1")] ObjectID("5f32bf02d9bd97944bcb3cc0") false}
+[34m  INFO[0m[0090] START: 2015-12-26 22:00:00 +0000 UTC
+[34m  INFO[0m[0090] DIFF: true               
+[34m  INFO[0m[0096] {ObjectID("5f32bf2fd9bd97944bcb3cc4") 2015-12-26 23:30:00 +0000 UTC -05:00 2015-12-27 01:00:00 +0000 UTC -05:00 The miswritten sharpener [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32bf2fd9bd97944bcb3cc3")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0096] START: 2015-12-26 23:30:00 +0000 UTC
+[34m  INFO[0m[0096] DIFF: true               
+[34m  INFO[0m[0097] {ObjectID("5f32bf5dd9bd97944bcb3cc6") 2015-12-28 22:40:00 +0000 UTC -05:00 2015-12-28 23:40:00 +0000 UTC -05:00 The slava praty [{ObjectID("5f32bea6d9bd97944bcb3cb4") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bf5cd9bd97944bcb3cc5")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0097] START: 2015-12-28 22:40:00 +0000 UTC
+[34m  INFO[0m[0097] DIFF: true               
+[34m  INFO[0m[0097] {ObjectID("5f32bf8ad9bd97944bcb3cc8") 2015-12-29 00:40:00 +0000 UTC -05:00 2015-12-29 01:40:00 +0000 UTC -05:00 The placeman chinguard [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 3 lost}] [ObjectID("5f32bf8ad9bd97944bcb3cc7")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0097] START: 2015-12-29 00:40:00 +0000 UTC
+[34m  INFO[0m[0097] DIFF: true               
+[34m  INFO[0m[0098] {ObjectID("5f32bfb7d9bd97944bcb3cca") 2015-12-31 19:25:00 +0000 UTC -05:00 2015-12-31 20:25:00 +0000 UTC -05:00 The ilala coxendix [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won}] [ObjectID("5f32bfb7d9bd97944bcb3cc9")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0098] START: 2015-12-31 19:25:00 +0000 UTC
+[34m  INFO[0m[0098] DIFF: true               
+[34m  INFO[0m[0103] {ObjectID("5f32bfe4d9bd97944bcb3ccd") 2017-06-27 01:01:00 +0000 UTC -05:00 2017-06-27 02:00:00 +0000 UTC -05:00 The restaurant torrid [{ObjectID("5f32bea7d9bd97944bcb3cb7") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bfe4d9bd97944bcb3ccc")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[0103] START: 2017-06-27 01:01:00 +0000 UTC
+[34m  INFO[0m[0103] DIFF: true               
+[34m  INFO[0m[0103] {ObjectID("5f32c012d9bd97944bcb3ccf") 2017-06-27 03:01:00 +0000 UTC -05:00 2017-06-27 04:00:00 +0000 UTC -05:00 The chin-music heraldically [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb7") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[0103] START: 2017-06-27 03:01:00 +0000 UTC
+[34m  INFO[0m[0103] DIFF: true               
+[34m  INFO[0m[0103] {ObjectID("5f32c03fd9bd97944bcb3cd1") 2017-06-30 01:00:00 +0000 UTC -05:00 2017-06-30 02:00:00 +0000 UTC -05:00 The mojados tetrazene [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0103] START: 2017-06-30 01:00:00 +0000 UTC
+[34m  INFO[0m[0103] DIFF: true               
+[34m  INFO[0m[0103] {ObjectID("5f32c06cd9bd97944bcb3cd2") 2017-06-30 02:01:00 +0000 UTC -05:00 2017-06-30 03:00:00 +0000 UTC -05:00 The Obwalden potshard [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0103] START: 2017-06-30 02:01:00 +0000 UTC
+[34m  INFO[0m[0103] DIFF: true               
+[34m  INFO[0m[0103] {ObjectID("5f32c09ad9bd97944bcb3cd4") 2017-06-30 03:01:00 +0000 UTC -05:00 2017-06-30 04:55:00 +0000 UTC -05:00 The condensing wood-honey [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cad") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c099d9bd97944bcb3cd3")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0103] START: 2017-06-30 03:01:00 +0000 UTC
+[34m  INFO[0m[0103] DIFF: true               
+[34m  INFO[0m[0103] {ObjectID("5f32c0c7d9bd97944bcb3cd7") 2017-07-05 19:00:00 +0000 UTC -04:00 2017-07-05 20:00:00 +0000 UTC -04:00 The RUMINT Monterey [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[0103] START: 2017-07-05 19:00:00 +0000 UTC
+[34m  INFO[0m[0103] DIFF: true               
+[34m  INFO[0m[0103] {ObjectID("5f32c0f4d9bd97944bcb3cd8") 2017-07-05 20:01:00 +0000 UTC -04:00 2017-07-05 21:00:00 +0000 UTC -04:00 The carob ecclesiolatry [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[0103] START: 2017-07-05 20:01:00 +0000 UTC
+[34m  INFO[0m[0103] DIFF: true               
+[34m  INFO[0m[0103] {ObjectID("5f32c121d9bd97944bcb3cdb") 2017-07-09 17:00:00 +0000 UTC -05:00 2017-07-09 18:00:00 +0000 UTC -05:00 The varsovienne clapperboards [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c121d9bd97944bcb3cda")] ObjectID("5f32c121d9bd97944bcb3cd9") false}
+[34m  INFO[0m[0103] START: 2017-07-09 17:00:00 +0000 UTC
+[34m  INFO[0m[0103] DIFF: true               
+[34m  INFO[0m[0103] {ObjectID("5f32c14fd9bd97944bcb3cdd") 2020-02-28 00:46:00 +0000 UTC -05:00 2020-02-28 01:05:00 +0000 UTC -05:00 The whitster trangle [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0103] START: 2020-02-28 00:46:00 +0000 UTC
+[34m  INFO[0m[0103] DIFF: true               
+[34m  INFO[0m[0103] {ObjectID("5f32c17cd9bd97944bcb3cde") 2020-02-28 01:10:00 +0000 UTC -05:00 2020-02-28 01:55:00 +0000 UTC -05:00 The Greco-Roman tail-head [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0103] START: 2020-02-28 01:10:00 +0000 UTC
+[34m  INFO[0m[0103] DIFF: true               
+[34m  INFO[0m[0103] FOUND []                 
+[34m  INFO[0m[0112] {ObjectID("5f32bea8d9bd97944bcb3cbd") 2014-09-13 01:00:00 +0000 UTC -05:00 2014-09-13 02:00:00 +0000 UTC -05:00 The innocuousness supernaculum [{ObjectID("5f32bea6d9bd97944bcb3cad") 3 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bea7d9bd97944bcb3cbc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0113] START: 2014-09-13 01:00:00 +0000 UTC
+[34m  INFO[0m[0114] DIFF: false              
+[34m  INFO[0m[0140] {ObjectID("5f32bed5d9bd97944bcb3cbf") 2015-12-26 04:30:00 +0000 UTC -05:00 2015-12-26 06:10:00 +0000 UTC -05:00 The sail-room pseudoneglect [{ObjectID("5f32bea6d9bd97944bcb3cb0") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb1") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bed5d9bd97944bcb3cbe")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0140] START: 2015-12-26 04:30:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] {ObjectID("5f32bf02d9bd97944bcb3cc2") 2015-12-26 22:00:00 +0000 UTC -05:00 2015-12-26 23:00:00 +0000 UTC -05:00 The margaret mead towerlike [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb2") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb3") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb6") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost}] [ObjectID("5f32bf02d9bd97944bcb3cc1")] ObjectID("5f32bf02d9bd97944bcb3cc0") false}
+[34m  INFO[0m[0140] START: 2015-12-26 22:00:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] {ObjectID("5f32bf2fd9bd97944bcb3cc4") 2015-12-26 23:30:00 +0000 UTC -05:00 2015-12-27 01:00:00 +0000 UTC -05:00 The miswritten sharpener [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32bf2fd9bd97944bcb3cc3")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0140] START: 2015-12-26 23:30:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] {ObjectID("5f32bf5dd9bd97944bcb3cc6") 2015-12-28 22:40:00 +0000 UTC -05:00 2015-12-28 23:40:00 +0000 UTC -05:00 The slava praty [{ObjectID("5f32bea6d9bd97944bcb3cb4") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bf5cd9bd97944bcb3cc5")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0140] START: 2015-12-28 22:40:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] {ObjectID("5f32bf8ad9bd97944bcb3cc8") 2015-12-29 00:40:00 +0000 UTC -05:00 2015-12-29 01:40:00 +0000 UTC -05:00 The placeman chinguard [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 3 lost}] [ObjectID("5f32bf8ad9bd97944bcb3cc7")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0140] START: 2015-12-29 00:40:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] {ObjectID("5f32bfb7d9bd97944bcb3cca") 2015-12-31 19:25:00 +0000 UTC -05:00 2015-12-31 20:25:00 +0000 UTC -05:00 The ilala coxendix [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won}] [ObjectID("5f32bfb7d9bd97944bcb3cc9")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0140] START: 2015-12-31 19:25:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] {ObjectID("5f32bfe4d9bd97944bcb3ccd") 2017-06-27 01:01:00 +0000 UTC -05:00 2017-06-27 02:00:00 +0000 UTC -05:00 The restaurant torrid [{ObjectID("5f32bea7d9bd97944bcb3cb7") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bfe4d9bd97944bcb3ccc")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[0140] START: 2017-06-27 01:01:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] {ObjectID("5f32c012d9bd97944bcb3ccf") 2017-06-27 03:01:00 +0000 UTC -05:00 2017-06-27 04:00:00 +0000 UTC -05:00 The chin-music heraldically [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb7") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[0140] START: 2017-06-27 03:01:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] {ObjectID("5f32c03fd9bd97944bcb3cd1") 2017-06-30 01:00:00 +0000 UTC -05:00 2017-06-30 02:00:00 +0000 UTC -05:00 The mojados tetrazene [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0140] START: 2017-06-30 01:00:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] {ObjectID("5f32c06cd9bd97944bcb3cd2") 2017-06-30 02:01:00 +0000 UTC -05:00 2017-06-30 03:00:00 +0000 UTC -05:00 The Obwalden potshard [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0140] START: 2017-06-30 02:01:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] {ObjectID("5f32c09ad9bd97944bcb3cd4") 2017-06-30 03:01:00 +0000 UTC -05:00 2017-06-30 04:55:00 +0000 UTC -05:00 The condensing wood-honey [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cad") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c099d9bd97944bcb3cd3")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0140] START: 2017-06-30 03:01:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] {ObjectID("5f32c0c7d9bd97944bcb3cd7") 2017-07-05 19:00:00 +0000 UTC -04:00 2017-07-05 20:00:00 +0000 UTC -04:00 The RUMINT Monterey [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[0140] START: 2017-07-05 19:00:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] {ObjectID("5f32c0f4d9bd97944bcb3cd8") 2017-07-05 20:01:00 +0000 UTC -04:00 2017-07-05 21:00:00 +0000 UTC -04:00 The carob ecclesiolatry [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[0140] START: 2017-07-05 20:01:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] {ObjectID("5f32c121d9bd97944bcb3cdb") 2017-07-09 17:00:00 +0000 UTC -05:00 2017-07-09 18:00:00 +0000 UTC -05:00 The varsovienne clapperboards [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c121d9bd97944bcb3cda")] ObjectID("5f32c121d9bd97944bcb3cd9") false}
+[34m  INFO[0m[0140] START: 2017-07-09 17:00:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] {ObjectID("5f32c14fd9bd97944bcb3cdd") 2020-02-28 00:46:00 +0000 UTC -05:00 2020-02-28 01:05:00 +0000 UTC -05:00 The whitster trangle [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0140] START: 2020-02-28 00:46:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] {ObjectID("5f32c17cd9bd97944bcb3cde") 2020-02-28 01:10:00 +0000 UTC -05:00 2020-02-28 01:55:00 +0000 UTC -05:00 The Greco-Roman tail-head [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0140] START: 2020-02-28 01:10:00 +0000 UTC
+[34m  INFO[0m[0140] DIFF: true               
+[34m  INFO[0m[0140] FOUND []                 
+[34m  INFO[0m[0146] {ObjectID("5f32bea8d9bd97944bcb3cbd") 2014-09-13 01:00:00 +0000 UTC -05:00 2014-09-13 02:00:00 +0000 UTC -05:00 The innocuousness supernaculum [{ObjectID("5f32bea6d9bd97944bcb3cad") 3 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bea7d9bd97944bcb3cbc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0147] START: 2014-09-13 01:00:00 +0000 UTC
+[34m  INFO[0m[0149] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32bea8d9bd97944bcb3cbd") 2014-09-13 01:00:00 +0000 UTC -05:00 2014-09-13 02:00:00 +0000 UTC -05:00 The innocuousness supernaculum [{ObjectID("5f32bea6d9bd97944bcb3cad") 3 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bea7d9bd97944bcb3cbc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0003] START: 2014-09-13 01:00:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: false              
+[34m  INFO[0m[0003] {ObjectID("5f32bed5d9bd97944bcb3cbf") 2015-12-26 04:30:00 +0000 UTC -05:00 2015-12-26 06:10:00 +0000 UTC -05:00 The sail-room pseudoneglect [{ObjectID("5f32bea6d9bd97944bcb3cb0") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb1") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bed5d9bd97944bcb3cbe")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0003] START: 2015-12-26 04:30:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32bf02d9bd97944bcb3cc2") 2015-12-26 22:00:00 +0000 UTC -05:00 2015-12-26 23:00:00 +0000 UTC -05:00 The margaret mead towerlike [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb2") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb3") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb6") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost}] [ObjectID("5f32bf02d9bd97944bcb3cc1")] ObjectID("5f32bf02d9bd97944bcb3cc0") false}
+[34m  INFO[0m[0003] START: 2015-12-26 22:00:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32bf2fd9bd97944bcb3cc4") 2015-12-26 23:30:00 +0000 UTC -05:00 2015-12-27 01:00:00 +0000 UTC -05:00 The miswritten sharpener [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32bf2fd9bd97944bcb3cc3")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0003] START: 2015-12-26 23:30:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32bf5dd9bd97944bcb3cc6") 2015-12-28 22:40:00 +0000 UTC -05:00 2015-12-28 23:40:00 +0000 UTC -05:00 The slava praty [{ObjectID("5f32bea6d9bd97944bcb3cb4") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bf5cd9bd97944bcb3cc5")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0003] START: 2015-12-28 22:40:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32bf8ad9bd97944bcb3cc8") 2015-12-29 00:40:00 +0000 UTC -05:00 2015-12-29 01:40:00 +0000 UTC -05:00 The placeman chinguard [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 3 lost}] [ObjectID("5f32bf8ad9bd97944bcb3cc7")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0003] START: 2015-12-29 00:40:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32bfb7d9bd97944bcb3cca") 2015-12-31 19:25:00 +0000 UTC -05:00 2015-12-31 20:25:00 +0000 UTC -05:00 The ilala coxendix [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won}] [ObjectID("5f32bfb7d9bd97944bcb3cc9")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0003] START: 2015-12-31 19:25:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32bfe4d9bd97944bcb3ccd") 2017-06-27 01:01:00 +0000 UTC -05:00 2017-06-27 02:00:00 +0000 UTC -05:00 The restaurant torrid [{ObjectID("5f32bea7d9bd97944bcb3cb7") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bfe4d9bd97944bcb3ccc")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[0003] START: 2017-06-27 01:01:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32c012d9bd97944bcb3ccf") 2017-06-27 03:01:00 +0000 UTC -05:00 2017-06-27 04:00:00 +0000 UTC -05:00 The chin-music heraldically [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb7") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[0003] START: 2017-06-27 03:01:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32c03fd9bd97944bcb3cd1") 2017-06-30 01:00:00 +0000 UTC -05:00 2017-06-30 02:00:00 +0000 UTC -05:00 The mojados tetrazene [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0003] START: 2017-06-30 01:00:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32c06cd9bd97944bcb3cd2") 2017-06-30 02:01:00 +0000 UTC -05:00 2017-06-30 03:00:00 +0000 UTC -05:00 The Obwalden potshard [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0003] START: 2017-06-30 02:01:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32c09ad9bd97944bcb3cd4") 2017-06-30 03:01:00 +0000 UTC -05:00 2017-06-30 04:55:00 +0000 UTC -05:00 The condensing wood-honey [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cad") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c099d9bd97944bcb3cd3")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0003] START: 2017-06-30 03:01:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32c0c7d9bd97944bcb3cd7") 2017-07-05 19:00:00 +0000 UTC -04:00 2017-07-05 20:00:00 +0000 UTC -04:00 The RUMINT Monterey [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[0003] START: 2017-07-05 19:00:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32c0f4d9bd97944bcb3cd8") 2017-07-05 20:01:00 +0000 UTC -04:00 2017-07-05 21:00:00 +0000 UTC -04:00 The carob ecclesiolatry [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[0003] START: 2017-07-05 20:01:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32c121d9bd97944bcb3cdb") 2017-07-09 17:00:00 +0000 UTC -05:00 2017-07-09 18:00:00 +0000 UTC -05:00 The varsovienne clapperboards [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c121d9bd97944bcb3cda")] ObjectID("5f32c121d9bd97944bcb3cd9") false}
+[34m  INFO[0m[0003] START: 2017-07-09 17:00:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32c14fd9bd97944bcb3cdd") 2020-02-28 00:46:00 +0000 UTC -05:00 2020-02-28 01:05:00 +0000 UTC -05:00 The whitster trangle [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0003] START: 2020-02-28 00:46:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[0003] {ObjectID("5f32c17cd9bd97944bcb3cde") 2020-02-28 01:10:00 +0000 UTC -05:00 2020-02-28 01:55:00 +0000 UTC -05:00 The Greco-Roman tail-head [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0003] START: 2020-02-28 01:10:00 +0000 UTC
+[34m  INFO[0m[0003] DIFF: true               
+[34m  INFO[0m[4886] FOUND [{ObjectID("5f32bed5d9bd97944bcb3cbf") 2015-12-26 04:30:00 +0000 UTC -05:00 2015-12-26 06:10:00 +0000 UTC -05:00 The sail-room pseudoneglect [{ObjectID("5f32bea6d9bd97944bcb3cb0") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb1") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bed5d9bd97944bcb3cbe")] ObjectID("5f32bea7d9bd97944bcb3cbb") false} {ObjectID("5f32bf02d9bd97944bcb3cc2") 2015-12-26 22:00:00 +0000 UTC -05:00 2015-12-26 23:00:00 +0000 UTC -05:00 The margaret mead towerlike [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb2") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb3") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb6") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost}] [ObjectID("5f32bf02d9bd97944bcb3cc1")] ObjectID("5f32bf02d9bd97944bcb3cc0") false} {ObjectID("5f32bf2fd9bd97944bcb3cc4") 2015-12-26 23:30:00 +0000 UTC -05:00 2015-12-27 01:00:00 +0000 UTC -05:00 The miswritten sharpener [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32bf2fd9bd97944bcb3cc3")] ObjectID("5f32bea7d9bd97944bcb3cbb") false} {ObjectID("5f32bf5dd9bd97944bcb3cc6") 2015-12-28 22:40:00 +0000 UTC -05:00 2015-12-28 23:40:00 +0000 UTC -05:00 The slava praty [{ObjectID("5f32bea6d9bd97944bcb3cb4") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bf5cd9bd97944bcb3cc5")] ObjectID("5f32bea7d9bd97944bcb3cbb") false} {ObjectID("5f32bf8ad9bd97944bcb3cc8") 2015-12-29 00:40:00 +0000 UTC -05:00 2015-12-29 01:40:00 +0000 UTC -05:00 The placeman chinguard [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 3 lost}] [ObjectID("5f32bf8ad9bd97944bcb3cc7")] ObjectID("5f32bea7d9bd97944bcb3cbb") false} {ObjectID("5f32bfb7d9bd97944bcb3cca") 2015-12-31 19:25:00 +0000 UTC -05:00 2015-12-31 20:25:00 +0000 UTC -05:00 The ilala coxendix [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won}] [ObjectID("5f32bfb7d9bd97944bcb3cc9")] ObjectID("5f32bea7d9bd97944bcb3cbb") false} {ObjectID("5f32bfe4d9bd97944bcb3ccd") 2017-06-27 01:01:00 +0000 UTC -05:00 2017-06-27 02:00:00 +0000 UTC -05:00 The restaurant torrid [{ObjectID("5f32bea7d9bd97944bcb3cb7") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bfe4d9bd97944bcb3ccc")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false} {ObjectID("5f32c012d9bd97944bcb3ccf") 2017-06-27 03:01:00 +0000 UTC -05:00 2017-06-27 04:00:00 +0000 UTC -05:00 The chin-music heraldically [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb7") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false} {ObjectID("5f32c03fd9bd97944bcb3cd1") 2017-06-30 01:00:00 +0000 UTC -05:00 2017-06-30 02:00:00 +0000 UTC -05:00 The mojados tetrazene [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false} {ObjectID("5f32c06cd9bd97944bcb3cd2") 2017-06-30 02:01:00 +0000 UTC -05:00 2017-06-30 03:00:00 +0000 UTC -05:00 The Obwalden potshard [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false} {ObjectID("5f32c09ad9bd97944bcb3cd4") 2017-06-30 03:01:00 +0000 UTC -05:00 2017-06-30 04:55:00 +0000 UTC -05:00 The condensing wood-honey [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cad") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c099d9bd97944bcb3cd3")] ObjectID("5f32c03fd9bd97944bcb3cd0") false} {ObjectID("5f32c0c7d9bd97944bcb3cd7") 2017-07-05 19:00:00 +0000 UTC -04:00 2017-07-05 20:00:00 +0000 UTC -04:00 The RUMINT Monterey [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false} {ObjectID("5f32c0f4d9bd97944bcb3cd8") 2017-07-05 20:01:00 +0000 UTC -04:00 2017-07-05 21:00:00 +0000 UTC -04:00 The carob ecclesiolatry [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false} {ObjectID("5f32c121d9bd97944bcb3cdb") 2017-07-09 17:00:00 +0000 UTC -05:00 2017-07-09 18:00:00 +0000 UTC -05:00 The varsovienne clapperboards [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c121d9bd97944bcb3cda")] ObjectID("5f32c121d9bd97944bcb3cd9") false} {ObjectID("5f32c14fd9bd97944bcb3cdd") 2020-02-28 00:46:00 +0000 UTC -05:00 2020-02-28 01:05:00 +0000 UTC -05:00 The whitster trangle [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false} {ObjectID("5f32c17cd9bd97944bcb3cde") 2020-02-28 01:10:00 +0000 UTC -05:00 2020-02-28 01:55:00 +0000 UTC -05:00 The Greco-Roman tail-head [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}]
+[34m  INFO[0m[4903] {ObjectID("5f32bea8d9bd97944bcb3cbd") 2014-09-13 01:00:00 +0000 UTC -05:00 2014-09-13 02:00:00 +0000 UTC -05:00 The innocuousness supernaculum [{ObjectID("5f32bea6d9bd97944bcb3cad") 3 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bea7d9bd97944bcb3cbc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[4903] START: 2014-09-13 01:00:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: false              
+[34m  INFO[0m[4903] {ObjectID("5f32bed5d9bd97944bcb3cbf") 2015-12-26 04:30:00 +0000 UTC -05:00 2015-12-26 06:10:00 +0000 UTC -05:00 The sail-room pseudoneglect [{ObjectID("5f32bea6d9bd97944bcb3cb0") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb1") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bed5d9bd97944bcb3cbe")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[4903] START: 2015-12-26 04:30:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4903] {ObjectID("5f32bf02d9bd97944bcb3cc2") 2015-12-26 22:00:00 +0000 UTC -05:00 2015-12-26 23:00:00 +0000 UTC -05:00 The margaret mead towerlike [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb2") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb3") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb6") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost}] [ObjectID("5f32bf02d9bd97944bcb3cc1")] ObjectID("5f32bf02d9bd97944bcb3cc0") false}
+[34m  INFO[0m[4903] START: 2015-12-26 22:00:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4903] {ObjectID("5f32bf2fd9bd97944bcb3cc4") 2015-12-26 23:30:00 +0000 UTC -05:00 2015-12-27 01:00:00 +0000 UTC -05:00 The miswritten sharpener [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32bf2fd9bd97944bcb3cc3")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[4903] START: 2015-12-26 23:30:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4903] {ObjectID("5f32bf5dd9bd97944bcb3cc6") 2015-12-28 22:40:00 +0000 UTC -05:00 2015-12-28 23:40:00 +0000 UTC -05:00 The slava praty [{ObjectID("5f32bea6d9bd97944bcb3cb4") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bf5cd9bd97944bcb3cc5")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[4903] START: 2015-12-28 22:40:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4903] {ObjectID("5f32bf8ad9bd97944bcb3cc8") 2015-12-29 00:40:00 +0000 UTC -05:00 2015-12-29 01:40:00 +0000 UTC -05:00 The placeman chinguard [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 3 lost}] [ObjectID("5f32bf8ad9bd97944bcb3cc7")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[4903] START: 2015-12-29 00:40:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4903] {ObjectID("5f32bfb7d9bd97944bcb3cca") 2015-12-31 19:25:00 +0000 UTC -05:00 2015-12-31 20:25:00 +0000 UTC -05:00 The ilala coxendix [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won}] [ObjectID("5f32bfb7d9bd97944bcb3cc9")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[4903] START: 2015-12-31 19:25:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4903] {ObjectID("5f32bfe4d9bd97944bcb3ccd") 2017-06-27 01:01:00 +0000 UTC -05:00 2017-06-27 02:00:00 +0000 UTC -05:00 The restaurant torrid [{ObjectID("5f32bea7d9bd97944bcb3cb7") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bfe4d9bd97944bcb3ccc")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[4903] START: 2017-06-27 01:01:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4903] {ObjectID("5f32c012d9bd97944bcb3ccf") 2017-06-27 03:01:00 +0000 UTC -05:00 2017-06-27 04:00:00 +0000 UTC -05:00 The chin-music heraldically [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb7") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[4903] START: 2017-06-27 03:01:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4903] {ObjectID("5f32c03fd9bd97944bcb3cd1") 2017-06-30 01:00:00 +0000 UTC -05:00 2017-06-30 02:00:00 +0000 UTC -05:00 The mojados tetrazene [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[4903] START: 2017-06-30 01:00:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4903] {ObjectID("5f32c06cd9bd97944bcb3cd2") 2017-06-30 02:01:00 +0000 UTC -05:00 2017-06-30 03:00:00 +0000 UTC -05:00 The Obwalden potshard [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[4903] START: 2017-06-30 02:01:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4903] {ObjectID("5f32c09ad9bd97944bcb3cd4") 2017-06-30 03:01:00 +0000 UTC -05:00 2017-06-30 04:55:00 +0000 UTC -05:00 The condensing wood-honey [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cad") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c099d9bd97944bcb3cd3")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[4903] START: 2017-06-30 03:01:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4903] {ObjectID("5f32c0c7d9bd97944bcb3cd7") 2017-07-05 19:00:00 +0000 UTC -04:00 2017-07-05 20:00:00 +0000 UTC -04:00 The RUMINT Monterey [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[4903] START: 2017-07-05 19:00:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4903] {ObjectID("5f32c0f4d9bd97944bcb3cd8") 2017-07-05 20:01:00 +0000 UTC -04:00 2017-07-05 21:00:00 +0000 UTC -04:00 The carob ecclesiolatry [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[4903] START: 2017-07-05 20:01:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4903] {ObjectID("5f32c121d9bd97944bcb3cdb") 2017-07-09 17:00:00 +0000 UTC -05:00 2017-07-09 18:00:00 +0000 UTC -05:00 The varsovienne clapperboards [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c121d9bd97944bcb3cda")] ObjectID("5f32c121d9bd97944bcb3cd9") false}
+[34m  INFO[0m[4903] START: 2017-07-09 17:00:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4903] {ObjectID("5f32c14fd9bd97944bcb3cdd") 2020-02-28 00:46:00 +0000 UTC -05:00 2020-02-28 01:05:00 +0000 UTC -05:00 The whitster trangle [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[4903] START: 2020-02-28 00:46:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4903] {ObjectID("5f32c17cd9bd97944bcb3cde") 2020-02-28 01:10:00 +0000 UTC -05:00 2020-02-28 01:55:00 +0000 UTC -05:00 The Greco-Roman tail-head [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[4903] START: 2020-02-28 01:10:00 +0000 UTC
+[34m  INFO[0m[4903] DIFF: true               
+[34m  INFO[0m[4922] FOUND [{ObjectID("5f32bed5d9bd97944bcb3cbf") 2015-12-26 04:30:00 +0000 UTC -05:00 2015-12-26 06:10:00 +0000 UTC -05:00 The sail-room pseudoneglect [{ObjectID("5f32bea6d9bd97944bcb3cb0") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb1") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bed5d9bd97944bcb3cbe")] ObjectID("5f32bea7d9bd97944bcb3cbb") false} {ObjectID("5f32bf02d9bd97944bcb3cc2") 2015-12-26 22:00:00 +0000 UTC -05:00 2015-12-26 23:00:00 +0000 UTC -05:00 The margaret mead towerlike [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb2") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb3") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb6") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost}] [ObjectID("5f32bf02d9bd97944bcb3cc1")] ObjectID("5f32bf02d9bd97944bcb3cc0") false} {ObjectID("5f32bf2fd9bd97944bcb3cc4") 2015-12-26 23:30:00 +0000 UTC -05:00 2015-12-27 01:00:00 +0000 UTC -05:00 The miswritten sharpener [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32bf2fd9bd97944bcb3cc3")] ObjectID("5f32bea7d9bd97944bcb3cbb") false} {ObjectID("5f32bf5dd9bd97944bcb3cc6") 2015-12-28 22:40:00 +0000 UTC -05:00 2015-12-28 23:40:00 +0000 UTC -05:00 The slava praty [{ObjectID("5f32bea6d9bd97944bcb3cb4") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bf5cd9bd97944bcb3cc5")] ObjectID("5f32bea7d9bd97944bcb3cbb") false} {ObjectID("5f32bf8ad9bd97944bcb3cc8") 2015-12-29 00:40:00 +0000 UTC -05:00 2015-12-29 01:40:00 +0000 UTC -05:00 The placeman chinguard [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 3 lost}] [ObjectID("5f32bf8ad9bd97944bcb3cc7")] ObjectID("5f32bea7d9bd97944bcb3cbb") false} {ObjectID("5f32bfb7d9bd97944bcb3cca") 2015-12-31 19:25:00 +0000 UTC -05:00 2015-12-31 20:25:00 +0000 UTC -05:00 The ilala coxendix [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won}] [ObjectID("5f32bfb7d9bd97944bcb3cc9")] ObjectID("5f32bea7d9bd97944bcb3cbb") false} {ObjectID("5f32bfe4d9bd97944bcb3ccd") 2017-06-27 01:01:00 +0000 UTC -05:00 2017-06-27 02:00:00 +0000 UTC -05:00 The restaurant torrid [{ObjectID("5f32bea7d9bd97944bcb3cb7") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bfe4d9bd97944bcb3ccc")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false} {ObjectID("5f32c012d9bd97944bcb3ccf") 2017-06-27 03:01:00 +0000 UTC -05:00 2017-06-27 04:00:00 +0000 UTC -05:00 The chin-music heraldically [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb7") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false} {ObjectID("5f32c03fd9bd97944bcb3cd1") 2017-06-30 01:00:00 +0000 UTC -05:00 2017-06-30 02:00:00 +0000 UTC -05:00 The mojados tetrazene [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false} {ObjectID("5f32c06cd9bd97944bcb3cd2") 2017-06-30 02:01:00 +0000 UTC -05:00 2017-06-30 03:00:00 +0000 UTC -05:00 The Obwalden potshard [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false} {ObjectID("5f32c09ad9bd97944bcb3cd4") 2017-06-30 03:01:00 +0000 UTC -05:00 2017-06-30 04:55:00 +0000 UTC -05:00 The condensing wood-honey [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cad") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c099d9bd97944bcb3cd3")] ObjectID("5f32c03fd9bd97944bcb3cd0") false} {ObjectID("5f32c0c7d9bd97944bcb3cd7") 2017-07-05 19:00:00 +0000 UTC -04:00 2017-07-05 20:00:00 +0000 UTC -04:00 The RUMINT Monterey [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false} {ObjectID("5f32c0f4d9bd97944bcb3cd8") 2017-07-05 20:01:00 +0000 UTC -04:00 2017-07-05 21:00:00 +0000 UTC -04:00 The carob ecclesiolatry [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false} {ObjectID("5f32c121d9bd97944bcb3cdb") 2017-07-09 17:00:00 +0000 UTC -05:00 2017-07-09 18:00:00 +0000 UTC -05:00 The varsovienne clapperboards [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c121d9bd97944bcb3cda")] ObjectID("5f32c121d9bd97944bcb3cd9") false} {ObjectID("5f32c14fd9bd97944bcb3cdd") 2020-02-28 00:46:00 +0000 UTC -05:00 2020-02-28 01:05:00 +0000 UTC -05:00 The whitster trangle [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false} {ObjectID("5f32c17cd9bd97944bcb3cde") 2020-02-28 01:10:00 +0000 UTC -05:00 2020-02-28 01:55:00 +0000 UTC -05:00 The Greco-Roman tail-head [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}]
+[34m  INFO[0m[0005] {ObjectID("5f32bea8d9bd97944bcb3cbd") 2014-09-13 01:00:00 +0000 UTC -05:00 2014-09-13 02:00:00 +0000 UTC -05:00 The innocuousness supernaculum [{ObjectID("5f32bea6d9bd97944bcb3cad") 3 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bea7d9bd97944bcb3cbc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0005] START: 2014-09-13 01:00:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: false              
+[34m  INFO[0m[0005] {ObjectID("5f32bed5d9bd97944bcb3cbf") 2015-12-26 04:30:00 +0000 UTC -05:00 2015-12-26 06:10:00 +0000 UTC -05:00 The sail-room pseudoneglect [{ObjectID("5f32bea6d9bd97944bcb3cb0") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb1") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bed5d9bd97944bcb3cbe")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0005] START: 2015-12-26 04:30:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0005] {ObjectID("5f32bf02d9bd97944bcb3cc2") 2015-12-26 22:00:00 +0000 UTC -05:00 2015-12-26 23:00:00 +0000 UTC -05:00 The margaret mead towerlike [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb2") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb3") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb6") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost}] [ObjectID("5f32bf02d9bd97944bcb3cc1")] ObjectID("5f32bf02d9bd97944bcb3cc0") false}
+[34m  INFO[0m[0005] START: 2015-12-26 22:00:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0005] {ObjectID("5f32bf2fd9bd97944bcb3cc4") 2015-12-26 23:30:00 +0000 UTC -05:00 2015-12-27 01:00:00 +0000 UTC -05:00 The miswritten sharpener [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32bf2fd9bd97944bcb3cc3")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0005] START: 2015-12-26 23:30:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0005] {ObjectID("5f32bf5dd9bd97944bcb3cc6") 2015-12-28 22:40:00 +0000 UTC -05:00 2015-12-28 23:40:00 +0000 UTC -05:00 The slava praty [{ObjectID("5f32bea6d9bd97944bcb3cb4") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bf5cd9bd97944bcb3cc5")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0005] START: 2015-12-28 22:40:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0005] {ObjectID("5f32bf8ad9bd97944bcb3cc8") 2015-12-29 00:40:00 +0000 UTC -05:00 2015-12-29 01:40:00 +0000 UTC -05:00 The placeman chinguard [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 3 lost}] [ObjectID("5f32bf8ad9bd97944bcb3cc7")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0005] START: 2015-12-29 00:40:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0005] {ObjectID("5f32bfb7d9bd97944bcb3cca") 2015-12-31 19:25:00 +0000 UTC -05:00 2015-12-31 20:25:00 +0000 UTC -05:00 The ilala coxendix [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won}] [ObjectID("5f32bfb7d9bd97944bcb3cc9")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0005] START: 2015-12-31 19:25:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0005] {ObjectID("5f32bfe4d9bd97944bcb3ccd") 2017-06-27 01:01:00 +0000 UTC -05:00 2017-06-27 02:00:00 +0000 UTC -05:00 The restaurant torrid [{ObjectID("5f32bea7d9bd97944bcb3cb7") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bfe4d9bd97944bcb3ccc")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[0005] START: 2017-06-27 01:01:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0005] {ObjectID("5f32c012d9bd97944bcb3ccf") 2017-06-27 03:01:00 +0000 UTC -05:00 2017-06-27 04:00:00 +0000 UTC -05:00 The chin-music heraldically [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb7") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[0005] START: 2017-06-27 03:01:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0005] {ObjectID("5f32c03fd9bd97944bcb3cd1") 2017-06-30 01:00:00 +0000 UTC -05:00 2017-06-30 02:00:00 +0000 UTC -05:00 The mojados tetrazene [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0005] START: 2017-06-30 01:00:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0005] {ObjectID("5f32c06cd9bd97944bcb3cd2") 2017-06-30 02:01:00 +0000 UTC -05:00 2017-06-30 03:00:00 +0000 UTC -05:00 The Obwalden potshard [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0005] START: 2017-06-30 02:01:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0005] {ObjectID("5f32c09ad9bd97944bcb3cd4") 2017-06-30 03:01:00 +0000 UTC -05:00 2017-06-30 04:55:00 +0000 UTC -05:00 The condensing wood-honey [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cad") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c099d9bd97944bcb3cd3")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0005] START: 2017-06-30 03:01:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0005] {ObjectID("5f32c0c7d9bd97944bcb3cd7") 2017-07-05 19:00:00 +0000 UTC -04:00 2017-07-05 20:00:00 +0000 UTC -04:00 The RUMINT Monterey [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[0005] START: 2017-07-05 19:00:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0005] {ObjectID("5f32c0f4d9bd97944bcb3cd8") 2017-07-05 20:01:00 +0000 UTC -04:00 2017-07-05 21:00:00 +0000 UTC -04:00 The carob ecclesiolatry [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[0005] START: 2017-07-05 20:01:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0005] {ObjectID("5f32c121d9bd97944bcb3cdb") 2017-07-09 17:00:00 +0000 UTC -05:00 2017-07-09 18:00:00 +0000 UTC -05:00 The varsovienne clapperboards [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c121d9bd97944bcb3cda")] ObjectID("5f32c121d9bd97944bcb3cd9") false}
+[34m  INFO[0m[0005] START: 2017-07-09 17:00:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0005] {ObjectID("5f32c14fd9bd97944bcb3cdd") 2020-02-28 00:46:00 +0000 UTC -05:00 2020-02-28 01:05:00 +0000 UTC -05:00 The whitster trangle [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0005] START: 2020-02-28 00:46:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0005] {ObjectID("5f32c17cd9bd97944bcb3cde") 2020-02-28 01:10:00 +0000 UTC -05:00 2020-02-28 01:55:00 +0000 UTC -05:00 The Greco-Roman tail-head [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0005] START: 2020-02-28 01:10:00 +0000 UTC
+[34m  INFO[0m[0005] DIFF: true               
+[34m  INFO[0m[0021] FOUND []                 
+[34m  INFO[0m[0080] {ObjectID("5f32bea8d9bd97944bcb3cbd") 2014-09-13 01:00:00 +0000 UTC -05:00 2014-09-13 02:00:00 +0000 UTC -05:00 The innocuousness supernaculum [{ObjectID("5f32bea6d9bd97944bcb3cad") 3 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bea7d9bd97944bcb3cbc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0080] START: 2014-09-13 01:00:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: false              
+[34m  INFO[0m[0080] {ObjectID("5f32bed5d9bd97944bcb3cbf") 2015-12-26 04:30:00 +0000 UTC -05:00 2015-12-26 06:10:00 +0000 UTC -05:00 The sail-room pseudoneglect [{ObjectID("5f32bea6d9bd97944bcb3cb0") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb1") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bed5d9bd97944bcb3cbe")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0080] START: 2015-12-26 04:30:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0080] {ObjectID("5f32bf02d9bd97944bcb3cc2") 2015-12-26 22:00:00 +0000 UTC -05:00 2015-12-26 23:00:00 +0000 UTC -05:00 The margaret mead towerlike [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb2") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb3") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb6") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost}] [ObjectID("5f32bf02d9bd97944bcb3cc1")] ObjectID("5f32bf02d9bd97944bcb3cc0") false}
+[34m  INFO[0m[0080] START: 2015-12-26 22:00:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0080] {ObjectID("5f32bf2fd9bd97944bcb3cc4") 2015-12-26 23:30:00 +0000 UTC -05:00 2015-12-27 01:00:00 +0000 UTC -05:00 The miswritten sharpener [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32bf2fd9bd97944bcb3cc3")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0080] START: 2015-12-26 23:30:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0080] {ObjectID("5f32bf5dd9bd97944bcb3cc6") 2015-12-28 22:40:00 +0000 UTC -05:00 2015-12-28 23:40:00 +0000 UTC -05:00 The slava praty [{ObjectID("5f32bea6d9bd97944bcb3cb4") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bf5cd9bd97944bcb3cc5")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0080] START: 2015-12-28 22:40:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0080] {ObjectID("5f32bf8ad9bd97944bcb3cc8") 2015-12-29 00:40:00 +0000 UTC -05:00 2015-12-29 01:40:00 +0000 UTC -05:00 The placeman chinguard [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 3 lost}] [ObjectID("5f32bf8ad9bd97944bcb3cc7")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0080] START: 2015-12-29 00:40:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0080] {ObjectID("5f32bfb7d9bd97944bcb3cca") 2015-12-31 19:25:00 +0000 UTC -05:00 2015-12-31 20:25:00 +0000 UTC -05:00 The ilala coxendix [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won}] [ObjectID("5f32bfb7d9bd97944bcb3cc9")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0080] START: 2015-12-31 19:25:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0080] {ObjectID("5f32bfe4d9bd97944bcb3ccd") 2017-06-27 01:01:00 +0000 UTC -05:00 2017-06-27 02:00:00 +0000 UTC -05:00 The restaurant torrid [{ObjectID("5f32bea7d9bd97944bcb3cb7") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bfe4d9bd97944bcb3ccc")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[0080] START: 2017-06-27 01:01:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0080] {ObjectID("5f32c012d9bd97944bcb3ccf") 2017-06-27 03:01:00 +0000 UTC -05:00 2017-06-27 04:00:00 +0000 UTC -05:00 The chin-music heraldically [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb7") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[0080] START: 2017-06-27 03:01:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0080] {ObjectID("5f32c03fd9bd97944bcb3cd1") 2017-06-30 01:00:00 +0000 UTC -05:00 2017-06-30 02:00:00 +0000 UTC -05:00 The mojados tetrazene [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0080] START: 2017-06-30 01:00:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0080] {ObjectID("5f32c06cd9bd97944bcb3cd2") 2017-06-30 02:01:00 +0000 UTC -05:00 2017-06-30 03:00:00 +0000 UTC -05:00 The Obwalden potshard [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0080] START: 2017-06-30 02:01:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0080] {ObjectID("5f32c09ad9bd97944bcb3cd4") 2017-06-30 03:01:00 +0000 UTC -05:00 2017-06-30 04:55:00 +0000 UTC -05:00 The condensing wood-honey [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cad") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c099d9bd97944bcb3cd3")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0080] START: 2017-06-30 03:01:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0080] {ObjectID("5f32c0c7d9bd97944bcb3cd7") 2017-07-05 19:00:00 +0000 UTC -04:00 2017-07-05 20:00:00 +0000 UTC -04:00 The RUMINT Monterey [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[0080] START: 2017-07-05 19:00:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0080] {ObjectID("5f32c0f4d9bd97944bcb3cd8") 2017-07-05 20:01:00 +0000 UTC -04:00 2017-07-05 21:00:00 +0000 UTC -04:00 The carob ecclesiolatry [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[0080] START: 2017-07-05 20:01:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0080] {ObjectID("5f32c121d9bd97944bcb3cdb") 2017-07-09 17:00:00 +0000 UTC -05:00 2017-07-09 18:00:00 +0000 UTC -05:00 The varsovienne clapperboards [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c121d9bd97944bcb3cda")] ObjectID("5f32c121d9bd97944bcb3cd9") false}
+[34m  INFO[0m[0080] START: 2017-07-09 17:00:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0080] {ObjectID("5f32c14fd9bd97944bcb3cdd") 2020-02-28 00:46:00 +0000 UTC -05:00 2020-02-28 01:05:00 +0000 UTC -05:00 The whitster trangle [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0080] START: 2020-02-28 00:46:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0080] {ObjectID("5f32c17cd9bd97944bcb3cde") 2020-02-28 01:10:00 +0000 UTC -05:00 2020-02-28 01:55:00 +0000 UTC -05:00 The Greco-Roman tail-head [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0080] START: 2020-02-28 01:10:00 +0000 UTC
+[34m  INFO[0m[0080] DIFF: true               
+[34m  INFO[0m[0085] FOUND [{ObjectID("5f32c14fd9bd97944bcb3cdd") 2020-02-28 00:46:00 +0000 UTC -05:00 2020-02-28 01:05:00 +0000 UTC -05:00 The whitster trangle [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false} {ObjectID("5f32c17cd9bd97944bcb3cde") 2020-02-28 01:10:00 +0000 UTC -05:00 2020-02-28 01:55:00 +0000 UTC -05:00 The Greco-Roman tail-head [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}]
+[34m  INFO[0m[0146] {ObjectID("5f32bea8d9bd97944bcb3cbd") 2014-09-13 01:00:00 +0000 UTC -05:00 2014-09-13 02:00:00 +0000 UTC -05:00 The innocuousness supernaculum [{ObjectID("5f32bea6d9bd97944bcb3cad") 3 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bea7d9bd97944bcb3cbc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0146] START: 2014-09-13 01:00:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: false              
+[34m  INFO[0m[0146] {ObjectID("5f32bed5d9bd97944bcb3cbf") 2015-12-26 04:30:00 +0000 UTC -05:00 2015-12-26 06:10:00 +0000 UTC -05:00 The sail-room pseudoneglect [{ObjectID("5f32bea6d9bd97944bcb3cb0") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb1") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bed5d9bd97944bcb3cbe")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0146] START: 2015-12-26 04:30:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] {ObjectID("5f32bf02d9bd97944bcb3cc2") 2015-12-26 22:00:00 +0000 UTC -05:00 2015-12-26 23:00:00 +0000 UTC -05:00 The margaret mead towerlike [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb2") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb3") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb6") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost}] [ObjectID("5f32bf02d9bd97944bcb3cc1")] ObjectID("5f32bf02d9bd97944bcb3cc0") false}
+[34m  INFO[0m[0146] START: 2015-12-26 22:00:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] {ObjectID("5f32bf2fd9bd97944bcb3cc4") 2015-12-26 23:30:00 +0000 UTC -05:00 2015-12-27 01:00:00 +0000 UTC -05:00 The miswritten sharpener [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32bf2fd9bd97944bcb3cc3")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0146] START: 2015-12-26 23:30:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] {ObjectID("5f32bf5dd9bd97944bcb3cc6") 2015-12-28 22:40:00 +0000 UTC -05:00 2015-12-28 23:40:00 +0000 UTC -05:00 The slava praty [{ObjectID("5f32bea6d9bd97944bcb3cb4") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3caf") 1 won}] [ObjectID("5f32bf5cd9bd97944bcb3cc5")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0146] START: 2015-12-28 22:40:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] {ObjectID("5f32bf8ad9bd97944bcb3cc8") 2015-12-29 00:40:00 +0000 UTC -05:00 2015-12-29 01:40:00 +0000 UTC -05:00 The placeman chinguard [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cb5") 3 lost}] [ObjectID("5f32bf8ad9bd97944bcb3cc7")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0146] START: 2015-12-29 00:40:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] {ObjectID("5f32bfb7d9bd97944bcb3cca") 2015-12-31 19:25:00 +0000 UTC -05:00 2015-12-31 20:25:00 +0000 UTC -05:00 The ilala coxendix [{ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 1 won}] [ObjectID("5f32bfb7d9bd97944bcb3cc9")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0146] START: 2015-12-31 19:25:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] {ObjectID("5f32bfe4d9bd97944bcb3ccd") 2017-06-27 01:01:00 +0000 UTC -05:00 2017-06-27 02:00:00 +0000 UTC -05:00 The restaurant torrid [{ObjectID("5f32bea7d9bd97944bcb3cb7") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cae") 3 lost}] [ObjectID("5f32bfe4d9bd97944bcb3ccc")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[0146] START: 2017-06-27 01:01:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] {ObjectID("5f32c012d9bd97944bcb3ccf") 2017-06-27 03:01:00 +0000 UTC -05:00 2017-06-27 04:00:00 +0000 UTC -05:00 The chin-music heraldically [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cb8") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb7") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32bfe4d9bd97944bcb3ccb") false}
+[34m  INFO[0m[0146] START: 2017-06-27 03:01:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] {ObjectID("5f32c03fd9bd97944bcb3cd1") 2017-06-30 01:00:00 +0000 UTC -05:00 2017-06-30 02:00:00 +0000 UTC -05:00 The mojados tetrazene [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0146] START: 2017-06-30 01:00:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] {ObjectID("5f32c06cd9bd97944bcb3cd2") 2017-06-30 02:01:00 +0000 UTC -05:00 2017-06-30 03:00:00 +0000 UTC -05:00 The Obwalden potshard [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0146] START: 2017-06-30 02:01:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] {ObjectID("5f32c09ad9bd97944bcb3cd4") 2017-06-30 03:01:00 +0000 UTC -05:00 2017-06-30 04:55:00 +0000 UTC -05:00 The condensing wood-honey [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cad") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c099d9bd97944bcb3cd3")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}
+[34m  INFO[0m[0146] START: 2017-06-30 03:01:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] {ObjectID("5f32c0c7d9bd97944bcb3cd7") 2017-07-05 19:00:00 +0000 UTC -04:00 2017-07-05 20:00:00 +0000 UTC -04:00 The RUMINT Monterey [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[0146] START: 2017-07-05 19:00:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] {ObjectID("5f32c0f4d9bd97944bcb3cd8") 2017-07-05 20:01:00 +0000 UTC -04:00 2017-07-05 21:00:00 +0000 UTC -04:00 The carob ecclesiolatry [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3caf") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c0c7d9bd97944bcb3cd6")] ObjectID("5f32c0c7d9bd97944bcb3cd5") false}
+[34m  INFO[0m[0146] START: 2017-07-05 20:01:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] {ObjectID("5f32c121d9bd97944bcb3cdb") 2017-07-09 17:00:00 +0000 UTC -05:00 2017-07-09 18:00:00 +0000 UTC -05:00 The varsovienne clapperboards [{ObjectID("5f32bea6d9bd97944bcb3caf") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea6d9bd97944bcb3cb4") 3 lost}] [ObjectID("5f32c121d9bd97944bcb3cda")] ObjectID("5f32c121d9bd97944bcb3cd9") false}
+[34m  INFO[0m[0146] START: 2017-07-09 17:00:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] {ObjectID("5f32c14fd9bd97944bcb3cdd") 2020-02-28 00:46:00 +0000 UTC -05:00 2020-02-28 01:05:00 +0000 UTC -05:00 The whitster trangle [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0146] START: 2020-02-28 00:46:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] {ObjectID("5f32c17cd9bd97944bcb3cde") 2020-02-28 01:10:00 +0000 UTC -05:00 2020-02-28 01:55:00 +0000 UTC -05:00 The Greco-Roman tail-head [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea7d9bd97944bcb3cba") 2 lost}] [ObjectID("5f32c14ed9bd97944bcb3cdc")] ObjectID("5f32bea7d9bd97944bcb3cbb") false}
+[34m  INFO[0m[0146] START: 2020-02-28 01:10:00 +0000 UTC
+[34m  INFO[0m[0146] DIFF: true               
+[34m  INFO[0m[0146] FOUND [{ObjectID("5f32c03fd9bd97944bcb3cd1") 2017-06-30 01:00:00 +0000 UTC -05:00 2017-06-30 02:00:00 +0000 UTC -05:00 The mojados tetrazene [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false} {ObjectID("5f32c06cd9bd97944bcb3cd2") 2017-06-30 02:01:00 +0000 UTC -05:00 2017-06-30 03:00:00 +0000 UTC -05:00 The Obwalden potshard [{ObjectID("5f32bea6d9bd97944bcb3cad") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cae") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c011d9bd97944bcb3cce")] ObjectID("5f32c03fd9bd97944bcb3cd0") false} {ObjectID("5f32c09ad9bd97944bcb3cd4") 2017-06-30 03:01:00 +0000 UTC -05:00 2017-06-30 04:55:00 +0000 UTC -05:00 The condensing wood-honey [{ObjectID("5f32bea6d9bd97944bcb3cae") 1 won} {ObjectID("5f32bea6d9bd97944bcb3cad") 2 lost} {ObjectID("5f32bea7d9bd97944bcb3cb9") 3 lost}] [ObjectID("5f32c099d9bd97944bcb3cd3")] ObjectID("5f32c03fd9bd97944bcb3cd0") false}]
+[34m  INFO[0m[0005] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0005] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[33m  WARN[0m[0041] PASSWRODCONFIG: &{1 65536 4 0}
+[34m  INFO[0m[0041] Logged in player:{Userid:ObjectID("5f32bea6d9bd97944bcb3cae") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
+[34m  INFO[0m[0050] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0050] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0002] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0002] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0003] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0003] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0004] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0004] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0004] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0004] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0004] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0004] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0037] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0037] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0046] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0046] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0052] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0052] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0065] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0065] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0065] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0065] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0068] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0068] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0068] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0068] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0069] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0069] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0070] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0070] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0190] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0190] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0190] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0190] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0191] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0191] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0192] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0192] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[33m  WARN[0m[0198] PASSWRODCONFIG: &{1 65536 4 0}
+[34m  INFO[0m[0198] Logged in player:{Userid:ObjectID("5f32bea6d9bd97944bcb3cae") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
+[34m  INFO[0m[0198] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0198] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0408] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0408] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }
+[33m  WARN[0m[0565] PASSWRODCONFIG: &{1 65536 4 0}
+[34m  INFO[0m[0565] Logged in player:{Userid:ObjectID("5f32bea6d9bd97944bcb3cae") Email:mitch FirstName: LastName: Password:$argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 Birthdate:0001-01-01 00:00:00 +0000 UTC Nickname:}
+[34m  INFO[0m[0565] Looking for: &{ObjectID("5f32bea6d9bd97944bcb3cae")     0001-01-01 00:00:00 +0000 UTC }
+[34m  INFO[0m[0565] Getting user now {ObjectID("5f32bea6d9bd97944bcb3cae") mitch   $argon2id$v=19$m=65536,t=1,p=4$hQjYT4if/EyrTmVxkL83Ng$wKPD3678H5MxABXzeSF4RmkdFvLCmuPaHS+3/Ek5Vi8 0001-01-01 00:00:00 +0000 UTC }

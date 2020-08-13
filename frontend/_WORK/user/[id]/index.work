@@ -1,0 +1,22 @@
+<script context="module">
+  import * as api from 'api'
+
+  export async function preload ({ params }) {
+    let user = await api.users.getUser({ userId: params.id })
+    return { user }
+  }
+</script>
+
+<script>
+  import User from '../../_components/Users/User.svelte'
+ 
+  export let user
+</script>
+
+<svelte:head>
+  <title>{user.title}</title>
+</svelte:head>
+
+<div class="item-page page">
+  <User {user}/>
+</div>

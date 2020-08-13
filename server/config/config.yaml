@@ -15,4 +15,6 @@ password:
   memory: 65536
   threads: 4
   keylen: 32
+timelayout:
+  template: "2006-01-02T15:04:05Z07:00"
 

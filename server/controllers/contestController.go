@@ -95,19 +95,32 @@ func (ctl *contestController) UpdateContest(c *gin.Context) {
 			contest.Stopoffset = value.(string)
 		}
 		if key == "stop" {
-			stop, _ := time.Parse(
-				"2006-01-02T15:04:05",
+			stop, err := time.Parse(
+				config.Config.Timelayout.Template,
 				value.(string))
+			if err != nil {
+				c.JSON(http.StatusBadRequest, gin.H{"contest time error:": err.Error()})
+				return
+			}
+
 			contest.Stop = stop
+
 		}
 		if key == "startoffset" {
 			contest.Startoffset = value.(string)
 		}
 		if key == "start" {
-			start, _ := time.Parse(
-				"2006-01-02T15:04:05",
+			start, err := time.Parse(
+				config.Config.Timelayout.Template,
 				value.(string))
+
+			if err != nil {
+				c.JSON(http.StatusBadRequest, gin.H{"contest time error:": err.Error()})
+				return
+			}
+
 			contest.Start = start
+
 		}
 
 		//TODO: need to add game service to find game and set it here

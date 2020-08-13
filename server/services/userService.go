@@ -10,28 +10,28 @@ import (
 
 // UserService interface
 type UserService interface {
-	GetUserByID(*types.User) (*types.User, error)
+	GetUserByObjectID(*types.User) bool
 	GetUserByEmail(*types.User) bool
 	AddUser(*types.User)
 }
 
 type userService struct {
-	Repo repos.UserRepo
+	UserRepo repos.UserRepo
 }
 
 // NewUserService will instantiate User Service
 func NewUserService(
-	repo repos.UserRepo) UserService {
+	userRepo repos.UserRepo) UserService {
 
 	return &userService{
-		Repo: repo,
+		UserRepo: userRepo,
 	}
 }
 
 func (us *userService) AddUser(in *types.User) {
 
 	if !us.GetUserByEmail(in) {
-		us.Repo.AddUser(in)
+		us.UserRepo.AddUser(in)
 	} else {
 		config.Apex.Infof("User already exists: %+v", in)
 	}
@@ -39,17 +39,15 @@ func (us *userService) AddUser(in *types.User) {
 	return
 }
 
-func (us *userService) GetUserByID(in *types.User) (*types.User, error) {
+func (us *userService) GetUserByObjectID(in *types.User) bool {
 	//if id == 0 {
 	//	return nil, errors.New("id param is required")
 	//}
 
-	us.Repo.AddUser(in)
-
-	return in, nil
+	return us.UserRepo.FindUserByObjectID(in)
 }
 
 func (us *userService) GetUserByEmail(in *types.User) bool {
 
-	return us.Repo.FindUserByEmail(in)
+	return us.UserRepo.FindUserByEmail(in)
 }

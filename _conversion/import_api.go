@@ -105,7 +105,7 @@ func main() {
 				log.Fatalln(err)
 			}
 
-			resp, err := http.Post(site+"contest", "application/json", bytes.NewBuffer((requestBody)))
+			resp, err := http.Post(site+"contests", "application/json", bytes.NewBuffer((requestBody)))
 			if err != nil {
 				log.Fatalln(err)
 			}

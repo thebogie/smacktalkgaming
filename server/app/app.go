@@ -3,6 +3,7 @@ package app
 import (
 	"net/http"
 
+	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 	"github.com/thebogie/smacktalkgaming/config"
 	"github.com/thebogie/smacktalkgaming/controllers"
@@ -42,7 +43,7 @@ func Run() {
 	/*
 		====== Setup controllers ========
 	*/
-	userCtl := controllers.NewUserController(userService)
+	userCtl := controllers.NewUserController(userService, contestService)
 	gameCtl := controllers.NewGameController(gameService)
 	contestCtl := controllers.NewContestController(userService, contestService, gameService, venueService)
 
@@ -51,6 +52,11 @@ func Run() {
 	*/
 	router.Use(gin.Logger())
 	router.Use(gin.Recovery())
+	// same as
+	// config := cors.DefaultConfig()
+	// config.AllowAllOrigins = true
+	// router.Use(cors.New(config))
+	router.Use(cors.Default())
 
 	/*
 		====== Setup routes =============
@@ -62,8 +68,10 @@ func Run() {
 	//update or create
 	api.POST("/register", userCtl.Register)
 	api.POST("/login", userCtl.Login)
-	api.POST("/contest", contestCtl.UpdateContest)
-	api.POST("/game", gameCtl.UpdateGame)
+	api.POST("/contests", contestCtl.UpdateContest)
+	api.POST("/games", gameCtl.UpdateGame)
+	api.GET("/users/:userid", userCtl.GetUser)
+	api.GET("/users/:userid/stats/:daterange", userCtl.GetUserStats)
 
 	router.Run(config.Config.API.Port)
 }

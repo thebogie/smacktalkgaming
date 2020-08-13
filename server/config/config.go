@@ -31,6 +31,9 @@ type Schema struct {
 		Threads uint8  `mapstructure:"threads"`
 		Keylen  uint32 `mapstructure:"keylen"`
 	} `mapstructure:"password"`
+	Timelayout struct {
+		Template string `mapstructure:"template"`
+	} `mapstructure:"timelayout"`
 }
 
 var (

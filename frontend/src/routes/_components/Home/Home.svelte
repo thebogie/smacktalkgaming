@@ -1,5 +1,5 @@
 <script>
-  import Stories from '../Stories/index.svelte'
+  //import Stories from '../Stories/index.svelte'
   //import Contests from './Contests/index.svelte'
 
   //export let currentPage = 1

@@ -7,7 +7,6 @@ export async function post (req, res) {
     
     const userData = await api.users.login(user)
     req.session.user = userData
-    console.log(JSON.stringify(userData))
     
     res.end(JSON.stringify(userData))
   } catch (err) {

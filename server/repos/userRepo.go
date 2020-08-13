@@ -16,6 +16,7 @@ import (
 type UserRepo interface {
 	AddUser(*types.User)
 	FindUserByEmail(*types.User) bool
+	FindUserByObjectID(*types.User) bool
 }
 
 type userRepo struct {
@@ -69,4 +70,24 @@ func (u *userRepo) AddUser(in *types.User) {
 		config.Apex.Infof("AddUser: %+v", in)
 	}
 	return
+}
+
+// FindUserByObjectID is func adapter save record under database
+func (u *userRepo) FindUserByObjectID(filter *types.User) bool {
+
+	collection := u.dbconn.Collection(u.dbCollection)
+
+	config.Apex.Infof("Looking for: %+s", filter)
+	err := collection.FindOne(context.TODO(), bson.M{"_id": filter.Userid}).Decode(&filter)
+	if err != nil {
+		config.Apex.Errorf("%s", err)
+		return false
+	}
+
+	if filter.Email == "" {
+
+		return false
+	}
+
+	return true
 }
