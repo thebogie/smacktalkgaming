@@ -21,7 +21,7 @@
       
 
       console.log(JSON.stringify($session));
-      goto("/user/" + response.data.userid);
+      goto("/user/view");
     } catch (err) {
       error = err.response.data.message;
       inProgress = false;
