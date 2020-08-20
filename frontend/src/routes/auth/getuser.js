@@ -1,14 +1,14 @@
 import * as api from 'api'
 
 export async function post (req, res) {
-  console.log("getuser get? %s",req.body.userid);
-  console.log("getuser get? %s", res);
+  console.log("getuser get? %s",req.body.user);
+  //console.log("getuser get? %s", res);
 
-  let user = req.body.userid;
+
   try {
     
    
-    const response = await api.users.getUser( { userId: req.body.userid} )
+    const response = await api.users.getUser( { userId: req.body._id} )
     req.session.user = response
     
     res.end(JSON.stringify(response))
