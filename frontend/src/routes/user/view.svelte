@@ -16,11 +16,6 @@
       //let user = await api.users.getUser({ userId: params.id });
       inProgress = true;
 
-      const user = await axios.post("auth/getuser", session.user);
-      session.user = user.data;
-
-      console.log("GETUSER PRELOAD:" + JSON.stringify(user));
-
       const userstats = await axios.post("auth/getuserstats", {
         user: session.user,
         daterange: "01011970"
@@ -49,7 +44,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/dand.css" />
 
 </svelte:head>
-{console.log('SESSION????? %v', $session.user)}
+{console.log('VIEW SESSION AFTER PRELOAD: %v', $session.user)}
 {#if !$session.user}
   Loading user...
 {:else}

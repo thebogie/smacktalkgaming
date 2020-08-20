@@ -146,7 +146,7 @@ func (ctl *userController) Login(c *gin.Context) {
 	// Declare the token with the algorithm used for signing, and the claims
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
 	// Create the JWT string
-	tokenString, err := token.SignedString(jwtKey)
+	player.Token, err = token.SignedString(jwtKey)
 	if err != nil {
 		// If there is an error in creating the JWT return an internal server error
 
@@ -158,11 +158,7 @@ func (ctl *userController) Login(c *gin.Context) {
 	// we also set an expiry time which is the same as the token itself
 	//c.SetCookie("token", tokenString, 604800, "/", "", false, true)
 
-	c.JSON(http.StatusOK, gin.H{
-		"email":  player.Email,
-		"userid": player.Userid,
-		"token":  tokenString,
-	})
+	c.JSON(http.StatusOK, player)
 	config.Apex.Infof("Logged in player:%+v", player)
 
 }

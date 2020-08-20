@@ -24,6 +24,7 @@ type User struct {
 	Password  string             `json:"password" bson:"password"`
 	Birthdate time.Time          `json:"birthdate" bson:"birthdate"`
 	Nickname  string             `json:"nickname" bson:"nickname"`
+	Token     string             `json:"token" bson:"token"`
 }
 
 // Venue : place, result for each person playing

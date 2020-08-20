@@ -20,7 +20,7 @@
       user = { email: "", password: "" };
       
 
-      console.log(JSON.stringify($session));
+      console.log("LOGGED IN  %v", JSON.stringify($session));
       goto("/user/view");
     } catch (err) {
       error = err.response.data.message;
