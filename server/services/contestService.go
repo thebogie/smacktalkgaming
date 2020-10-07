@@ -12,6 +12,7 @@ import (
 type ContestService interface {
 	UpdateContest(*types.Contest) (string, error)
 	GetUserContestsByDateRange(primitive.ObjectID, time.Time) []types.Contest
+	GetContestsUserInvolved(primitive.ObjectID) []types.Contest
 }
 
 type contestService struct {
@@ -56,5 +57,13 @@ func (cs *contestService) GetUserContestsByDateRange(userid primitive.ObjectID, 
 	//	return nil, errors.New("id param is required")
 	//}
 	contestlist = cs.Repo.GetContestsAfterOrOnDateRange(daterange)
+	return contestlist
+}
+
+func (cs *contestService) GetContestsUserInvolved(userid primitive.ObjectID) (contestlist []types.Contest) {
+	//if id == 0 {
+	//	return nil, errors.New("id param is required")
+	//}
+	contestlist = cs.Repo.GetContestsUserInvolved(userid)
 	return contestlist
 }

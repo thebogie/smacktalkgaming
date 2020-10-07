@@ -1,21 +1,22 @@
-FROM node:latest
+# IMPORTANT: Don't use this Dockerfile in your own Sapper projects without also looking at the .dockerignore file.
+# Without an appropriate .dockerignore, this Dockerfile will copy a large number of unneeded files into your image.
 
-WORKDIR /frontend
+FROM mhart/alpine-node:12
 
-COPY . /frontend
+# install dependencies
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm ci --production
 
-COPY .env /frontend/.env
+###
+# Only copy over the Node pieces we need
+# ~> Saves 35MB
+###
+FROM mhart/alpine-node:slim-12
 
-CMD if [ "${APP_ENV}" = "production" ]; \
-    then \
-    echo "PRODUCTION SETUP"; \
-    cp /frontend/.env.prod .env; \ 
-    npm run build; \
-    npm run start; \
-    else \
-    echo "DEVEOLPMENT SETUP"; \
-    npm install; \
-    npm run dev;  \
-    fi
+WORKDIR /app
+COPY --from=0 /app .
+COPY . .
 
 EXPOSE 3000
+CMD ["node", "__sapper__/build"]

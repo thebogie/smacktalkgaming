@@ -1,55 +1,74 @@
+<script context="module">
+  export async function preload({ params }, { user }) {
+    console.log("PRELOAD LOGIN: " + JSON.stringify(params) + user);
+    if (user) {
+      this.redirect(302, `/`);
+    }
+  }
+</script>
+
 <script>
   import { goto, stores } from "@sapper/app";
-  import axios from "axios";
+  import ListErrors from "../_components/ListErrors.svelte";
+  import { post } from "utils.js";
 
   const { session } = stores();
 
-  let user = { email: "", password: "" };
-  let inProgress = false;
-  let error = null;
+  let email = "";
+  let password = "";
+  let errors = null;
 
-  async function submit() {
-    console.log("Submit Login");
-    try {
-      inProgress = true;
-      const response = await axios.post("/auth/login", user);
+  async function submit(event) {
+    const response = await post(`auth/login`, { email, password });
 
-      $session.user = response.data;
-      inProgress = false;
-      error = null;
-      user = { email: "", password: "" };
-      
+    // TODO handle network errors
+    errors = response.errors;
 
-      console.log("LOGGED IN  %v", JSON.stringify($session));
-      goto("/user/view");
-    } catch (err) {
-      error = err.response.data.message;
-      inProgress = false;
+    if (response._id) {
+      $session.user = response;
+
+      goto("/");
     }
   }
 </script>
 
 <svelte:head>
-  <title>Login</title>
+  <title>Sign in • Conduit</title>
 </svelte:head>
 
-<form class="login-form" on:submit|preventDefault={submit}>
-  {#if error}
-    <span class="error-message">{error}</span>
-  {/if}
-  <input
-    class="text-input email-input"
-    bind:value={user.email}
-    type="text"
-    placeholder="email"
-    required />
-  <input
-    class="text-input password-input"
-    bind:value={user.password}
-    type="password"
-    placeholder="password"
-    required />
-  <button class="login-button primary-button" disabled={inProgress}>
-    LOG IN
-  </button>
-</form>
+<div class="auth-page">
+  <div class="container page">
+    <div class="row">
+      <div class="col-md-6 offset-md-3 col-xs-12">
+        <h1 class="text-xs-center">Sign In</h1>
+        <p class="text-xs-center">
+          <a href="/register">Need an account?</a>
+        </p>
+
+        <ListErrors {errors} />
+
+        <form on:submit|preventDefault={submit}>
+          <fieldset class="form-group">
+            <input
+              class="form-control form-control-lg"
+              type="email"
+              required
+              placeholder="Email"
+              bind:value={email} />
+          </fieldset>
+          <fieldset class="form-group">
+            <input
+              class="form-control form-control-lg"
+              type="password"
+              required
+              placeholder="Password"
+              bind:value={password} />
+          </fieldset>
+          <button class="btn btn-lg btn-primary pull-xs-right" type="submit">
+            Sign in
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

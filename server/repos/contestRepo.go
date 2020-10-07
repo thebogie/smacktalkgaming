@@ -21,6 +21,7 @@ import (
 type ContestRepo interface {
 	AddContest(*types.Contest)
 	GetContestsAfterOrOnDateRange(time.Time) []types.Contest
+	GetContestsUserInvolved(primitive.ObjectID) []types.Contest
 }
 
 type contestRepo struct {
@@ -95,6 +96,49 @@ func (c *contestRepo) GetContestsAfterOrOnDateRange(daterange time.Time) (contes
 
 		if result.Start.After(daterange) {
 			contestlist = append(contestlist, result)
+		}
+
+	}
+	if err := cur.Err(); err != nil {
+		log.Fatal(err)
+	}
+
+	return contestlist
+}
+
+// GetContestsUserInvolved: get all contests user has been involved in to get the number of contests played
+func (c *contestRepo) GetContestsUserInvolved(userid primitive.ObjectID) (contestlist []types.Contest) {
+
+	//TODO: figure out mongodb way to search versus getting ALL contests back
+	//var createdDocument session.MongoDbDocument
+	ctx := context.Background()
+	collection := c.dbconn.Collection(c.dbCollection)
+
+	cur, err := collection.Find(ctx, bson.M{})
+	if err != nil {
+		config.Apex.Infof("FAILED TO FIND %s", err)
+		//log.Fatal(err)
+	}
+
+	defer cur.Close(ctx)
+	for cur.Next(ctx) {
+		var result types.Contest
+
+		err := cur.Decode(&result)
+		if err != nil {
+			config.Apex.Infof("RESULT ERROR %s", err)
+			//log.Fatal(err)
+		}
+		config.Apex.Infof("%v", result)
+
+		for _, stats := range result.Outcome {
+			config.Apex.Infof("STATS: %v ", stats)
+
+			//user was in contest
+			if stats.Playerid == userid {
+				contestlist = append(contestlist, result)
+			}
+
 		}
 
 	}

@@ -202,36 +202,103 @@ func (ctl *userController) GetUser(c *gin.Context) {
 // @Router /api/:userid/stats [GET]
 func (ctl *userController) GetUserStats(c *gin.Context) {
 
-	var contestlist []types.Contest
-	var contestlistfinal []types.Contest
-
-	daterange, err := time.Parse("01022006", c.Params.ByName("daterange"))
-	if err != nil {
-		c.JSON(http.StatusBadRequest, gin.H{"msg": "daterange incorrect"})
-		return
+	type Userstats struct {
+		Contestsplayed int
+		Gamesplayed    int
+		Contestswon    int
+		Contestslost   int
+		Conteststied   int
+		Competitors    int
+		Contestlist    []types.Contest
 	}
+
+	//var contestlist []types.Contest
+	var ustats Userstats
+	//daterange, err := time.Parse("01022006", c.Params.ByName("daterange"))
+	//if err != nil {
+	//	c.JSON(http.StatusBadRequest, gin.H{"msg": "daterange incorrect"})
+	//	return
+	//	}
 
 	objid, err := primitive.ObjectIDFromHex(c.Params.ByName("userid"))
 	if err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"msg": "userid incorrect"})
 		return
 	}
+	ustats.Contestlist = ctl.cs.GetContestsUserInvolved(objid)
+	ustats.Contestsplayed = len(ustats.Contestlist)
 
-	contestlist = ctl.cs.GetUserContestsByDateRange(objid, daterange)
+	competitorList := []primitive.ObjectID{}
 
-	for _, contest := range contestlist {
+	for _, contest := range ustats.Contestlist {
+		config.Apex.Infof("LENGTH %v", len(contest.Games))
+		ustats.Gamesplayed = ustats.Gamesplayed + len(contest.Games)
+
 		for _, stats := range contest.Outcome {
 
-			//user was in contest
 			if stats.Playerid == objid {
-				contestlistfinal = append(contestlistfinal, contest)
-			}
+				if stats.Result == "won" {
 
+					//did anybody else win...
+					isthisatie := false
+					for _, resulttest := range contest.Outcome {
+						if resulttest.Playerid != objid && resulttest.Result == "won" {
+							isthisatie = true
+						}
+					}
+
+					if isthisatie {
+						ustats.Conteststied = ustats.Conteststied + 1
+					} else {
+						ustats.Contestswon = ustats.Contestswon + 1
+					}
+
+				}
+				if stats.Result == "lost" {
+					ustats.Contestslost = ustats.Contestslost + 1
+				}
+
+			} else {
+
+				if len(competitorList) == 0 {
+					competitorList = append(competitorList, stats.Playerid)
+				}
+
+				alreadythere := false
+				for _, entry := range competitorList {
+					if entry == stats.Playerid {
+						alreadythere = true
+					}
+				}
+				if !alreadythere {
+
+					competitorList = append(competitorList, stats.Playerid)
+				}
+
+			}
 		}
 	}
 
-	c.JSON(http.StatusOK, contestlistfinal)
-	config.Apex.Infof("FOUND %v", contestlistfinal)
+	//ustats.Gamesplayed = len(ustats.Contestlist)
+	//ustats.Contestswon = len(ustats.Contestlist)
+	//ustats.Contestslost = len(ustats.Contestlist)
+	//ustats.Conteststied = len(ustats.Contestlist)
+	ustats.Competitors = len(competitorList)
+
+	config.Apex.Infof("*************USTATS %v\n", ustats)
+
+	//jsonustats, err := json.Marshal(ustats)
+
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"msg": "userstats failed to compile"})
+		return
+	}
+
+	//isValid := json.Valid(jsonustats)
+
+	c.JSON(http.StatusOK, ustats)
+	//json.Unmarshal(jsonustats, &ustatsprint)
+	//config.Apex.Infof("PRINT OUT JSON %#v\n", ustatsprint)
 }
 
 func (ctl *userController) UpdateUser(c *gin.Context) {

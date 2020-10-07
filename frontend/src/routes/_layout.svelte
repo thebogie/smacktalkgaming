@@ -1,12 +1,12 @@
-<script context="module">
-  import Nav from "./_components/Nav.svelte";
-  import LoadingBar from "./_components/LoadingBar.svelte";
+<script>
+	import { stores } from '@sapper/app';
+	import Nav from '../routes/_components/Nav.svelte';
 
+	export let segment;
 </script>
 
-<LoadingBar />
-<Nav />
+<Nav {segment}/>
 
 <main>
-  <slot />
+	<slot></slot>
 </main>
