@@ -17,8 +17,7 @@ services:
       - /etc/letsencrypt/:/etc/letsencrypt/
       - /home/thebogie/work/smacktalkgaming/nginx/srv/mitchgottlieb.com:/www/mitchgottlieb.com
       - /home/thebogie/work/smacktalkgaming/nginx/srv/smacktalkgaming.com:/www/smacktalkgaming.com
-    depends_on:
-      - stgapp
+
     networks:
       - app-tier
     ports:
@@ -50,6 +49,8 @@ services:
 
     ports:
       - 5000:5000
+    depends_on:
+      - mongodb
 
     networks:
       - app-tier
@@ -64,9 +65,8 @@ services:
     ports:
       - 3000:3000
       - 10000:10000
-    depends_on:
-      - mongodb
-      - stgserver
+
+   
     networks:
       - app-tier
   #frontend:
