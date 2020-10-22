@@ -10,6 +10,7 @@ import (
 	"github.com/thebogie/smacktalkgaming/db"
 	"github.com/thebogie/smacktalkgaming/repos"
 	"github.com/thebogie/smacktalkgaming/services"
+	"github.com/tpkeeper/gin-dump"
 )
 
 var (
@@ -50,6 +51,8 @@ func Run() {
 	/*
 		====== Setup middlewares ========
 	*/
+
+	router.Use(gindump.Dump())
 	router.Use(gin.Logger())
 	router.Use(gin.Recovery())
 	// same as

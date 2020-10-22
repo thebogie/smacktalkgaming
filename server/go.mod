@@ -14,6 +14,7 @@ require (
 	github.com/labstack/gommon v0.2.9
 	github.com/spf13/viper v1.4.0
 	github.com/stretchr/testify v1.4.0
+	github.com/tpkeeper/gin-dump v1.0.0
 	go.mongodb.org/mongo-driver v1.4.0
 	golang.org/x/crypto v0.0.0-20190530122614-20be4c3c3ed5
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect

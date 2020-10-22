@@ -10,12 +10,8 @@
 
         console.log("+++++++++++" + JSON.stringify(user));
 
-
-    //const username = params.user.slice(1);
-
     const profile = await api.get(
-      `users/${user._id}/stats/01011970`,
-      user && user.token
+      `users/${user._id}/stats/01011970`, user.token
     );
 
     console.log("+++++++++++" + JSON.stringify(profile));

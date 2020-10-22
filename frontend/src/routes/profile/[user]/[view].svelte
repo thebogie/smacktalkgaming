@@ -4,7 +4,9 @@
 	export async function preload({ params }, { user }) {
 		const username = params.user.slice(1);
 
-		const { profile } = await api.get(`profiles/${username}`, user && user.token);
+		
+
+		const { profile } = await api.get(`profiles/${username}`, user.token);
 		return { profile, favorites: params.view === 'favorites' };
 	}
 </script>

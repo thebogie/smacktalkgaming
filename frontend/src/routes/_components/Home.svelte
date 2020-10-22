@@ -28,7 +28,7 @@
   <div class="banner">
     
       <h1 class="logo-font">Smacktalkgaming</h1>
-      <p>The only place one can say bad things about losers</p>
+      <p>The only place one can say bad things about losers in a positive way.</p>
     </div>
  
 
