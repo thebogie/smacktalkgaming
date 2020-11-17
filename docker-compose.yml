@@ -1,28 +1,9 @@
 version: "3.7"
 networks:
-  app-tier:
+  smacktalkapp:
     driver: bridge
 
 services:
-
-  nginx:
-    container_name: nginx
-    build:
-      context: ./nginx
-    environment:
-      - APP_ENV=${APP_ENV}
-    volumes:
-      - /home/thebogie/work/smacktalkgaming/nginx/error.log:/etc/nginx/error_log.log
-      - /home/thebogie/work/smacktalkgaming/nginx/cache/:/etc/nginx/cache
-      - /etc/letsencrypt/:/etc/letsencrypt/
-      - /home/thebogie/work/smacktalkgaming/nginx/srv/mitchgottlieb.com:/www/mitchgottlieb.com
-      - /home/thebogie/work/smacktalkgaming/nginx/srv/smacktalkgaming.com:/www/smacktalkgaming.com
-
-    networks:
-      - app-tier
-    ports:
-      - 80:80
-      - 443:443
 
   mongodb:
     image: mongo:latest
@@ -37,7 +18,7 @@ services:
     command: mongod
 
     networks:
-      - app-tier
+      - smacktalkapp
 
   stgserver:
     #command: --security-opt=seccomp:unconfined
@@ -53,7 +34,7 @@ services:
       - mongodb
 
     networks:
-      - app-tier
+      - smacktalkapp
 
   stgapp:
     container_name: stgapp
@@ -66,9 +47,8 @@ services:
       - 3000:3000
       - 10000:10000
 
-   
     networks:
-      - app-tier
+      - smacktalkapp
   #frontend:
   #  build:
   #    context: ./frontend
@@ -96,21 +76,21 @@ services:
   #- ./certs:/certs
   # - /home/thebogie/work/smacktalkgaming/apache/mitchgottlieb.com:/app
   #- /home/thebogie/work/smacktalkgaming/apache/smacktalkgaming.com:/app/smacktalkgaming.com
-# caddy:
-#   image: "caddy:latest"
-##   container_name: caddy
-#   environment:
-#     - ACME_AGRE=true
-#   cap_add:
-#     - CAP_NET_BIND_SERVICE
-#   networks:
-#     - app-tier
-#   ports:
-#     - 80:80
-#    - 443:443
-#  volumes:
-#    - /home/thebogie/work/smacktalkgaming/caddy/srv:/www
-#- /home/thebogie/work/smacktalkgaming/caddy/srv/smacktalkgaming.com:/www/smacktalkgaming.com
-#    - /home/thebogie/work/smacktalkgaming/caddy/config/Caddyfile:/etc/Caddyfile
-##    - /home/thebogie/work/smacktalkgaming/caddy/.caddyCerts:/etc/caddycerts
-#   - /home/thebogie/work/smacktalkgaming/caddy/logs:/logs
+ # nginx:
+ #   container_name: nginx
+ #   build:
+ #     context: ./nginx
+ #   environment:
+ #     - APP_ENV=${APP_ENV}
+ #   volumes:
+ #     - /home/thebogie/work/smacktalkgaming/nginx/error.log:/etc/nginx/error_log.log
+ #     - /home/thebogie/work/smacktalkgaming/nginx/cache/:/etc/nginx/cache
+ #     - /etc/letsencrypt/:/etc/letsencrypt/
+ #     - /home/thebogie/work/smacktalkgaming/nginx/srv/mitchgottlieb.com:/www/mitchgottlieb.com
+ #     - /home/thebogie/work/smacktalkgaming/nginx/srv/smacktalkgaming.com:/www/smacktalkgaming.com
+
+  #  networks:
+  #    - app-tier
+  #  ports:
+  #    - 80:80
+   #   - 443:443
