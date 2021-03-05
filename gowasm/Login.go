@@ -8,6 +8,7 @@ import (
 	// "io/ioutil"
 	"net/http"
 
+	"github.com/vugu/vgrouter"
 	"github.com/vugu/vugu"
 )
 
@@ -16,6 +17,12 @@ import (
 
 //Login : Login
 type Login struct {
+	User User
+	vgrouter.NavigatorRef
+}
+
+//User : User
+type User struct {
 	ID        string `json:"_id"`
 	Email     string `json:"email"`
 	Firstname string `json:"firstName"`
@@ -24,7 +31,7 @@ type Login struct {
 	Token     string `json:"token"`
 }
 
-var user Login
+var login Login
 
 //HandleClick : handleclick
 func (c *Login) HandleClick(event vugu.DOMEvent) {
@@ -33,46 +40,47 @@ func (c *Login) HandleClick(event vugu.DOMEvent) {
 
 	ee := event.EventEnv()
 
-	user.Email = c.Email
-	user.Password = c.Password
+	login.User.Email = c.User.Email
+	login.User.Password = c.User.Password
 
-	//fmt.Printf("\n\n USER  START:::: %+v", user)
+	fmt.Printf("\n\n USER START:::: %+v", login.User)
 
 	go func() {
+		fmt.Printf("\n\n IN GOFUNC:::: %+v", login.User)
 
-		//Encode the data
-		postBody, _ := json.Marshal(map[string]string{
-			"email":    c.Email,
-			"password": c.Password,
-		})
-		responseBody := bytes.NewBuffer(postBody)
+		values := map[string]string{
+			"email":    login.User.Email,
+			"password": login.User.Password}
+		jsonData, err := json.Marshal(values)
+
+		if err != nil {
+			fmt.Printf("\n\n*** Marshal error: %v", err)
+		}
+
+		fmt.Printf("\n\n*** jsonData %+v", jsonData)
+
 		//Leverage Go's HTTP Post function to make request
-		resp, err := http.Post("http://192.168.86.45:5000/api/login", "application/json", responseBody)
-		//Handle Error
-		if err != nil {
-			fmt.Errorf("An Error Occured %v", err)
-		}
-		defer resp.Body.Close()
+		resp, err := http.Post("http://192.168.86.45:5000/api/login",
+			"application/json",
+			bytes.NewBuffer(jsonData))
 
-		err = json.NewDecoder(resp.Body).Decode(&user)
+		//Handle Error
+
 		if err != nil {
-			fmt.Errorf("An Error Occured %v", err)
+			fmt.Printf("\n\n*** Post error: %v", err)
+
 		}
+
+		fmt.Printf("\n\n*** RESP %+v", resp)
+		//err = json.NewDecoder(resp.Body).Decode(&login.User)
+		//if err != nil {
+		//	fmt.Printf("\n\n*** Decode error: %v", err)
+		//}
+
+		defer resp.Body.Close()
 
 		ee.Lock()
 		defer ee.UnlockRender()
-		//c.Username = username
-		//c.Password = password
-
-		fmt.Printf("\n\n json object:::: %+v", user)
-		//if c.ValidateUser() {
-		//	fmt.Printf("\n\n LOGGED IN")
-		//c.LoginResponse = "LOGGED IN"
-		//c.Navigate("/profile", nil)
-		//} else {
-		//	fmt.Printf("\n\n NOT LOGGED IN")
-		//c.LoginResponse = "NOT LOGGED IN"
-		//}
-
 	}()
+
 }

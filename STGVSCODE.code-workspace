@@ -1,17 +1,10 @@
 {
   "folders": [
     {
-      // Source code
       "name": "STG",
       "path": "."
     },
     {
-      // flutter code
-      "name": "frontend",
-      "path": "frontend"
-    },
-    {
-      // Docs and release notes
       "name": "server",
       "path": "server"
     },

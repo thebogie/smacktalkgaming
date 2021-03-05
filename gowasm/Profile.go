@@ -22,7 +22,7 @@ func (c *Profile) Init(ctx vugu.InitCtx) {
 
 	// kick of loading data from an endpoint
 	//TODO: how to share Login struct across app...
-	log.Printf("\n\n json object:::: %+v", user)
+	//log.Printf("\n\n json object:::: %+v", user)
 
 	c.Loading = true
 	go func() {

@@ -110,14 +110,12 @@ func (ctl *userController) Login(c *gin.Context) {
 
 	}
 
-	ctl.us.GetUserByEmail(&player)
+	var match = false
+	if ctl.us.GetUserByEmail(&player) {
+		match, _ = services.ComparePassword(attemptedpassword, player.Password)
 
-	match, err := services.ComparePassword(attemptedpassword, player.Password)
-	if err != nil {
-		config.Apex.Errorf("%s", err)
-
-		return
 	}
+
 	if match == false {
 		config.Apex.Warn("WRONG PASSWORD SEND BACK TO LOGIN OR REGIESTER")
 		c.JSON(http.StatusUnauthorized, gin.H{"status": "unauthorized"})

@@ -36,19 +36,19 @@ services:
     networks:
       - smacktalkapp
 
-  stgapp:
-    container_name: stgapp
-    environment:
-      - APP_ENV=${APP_ENV}
-    build:
-      context: ./frontend
+  #stgapp:
+  #  container_name: stgapp
+  #  environment:
+  #    - APP_ENV=${APP_ENV}
+  #  build:
+  #    context: ./frontend
 
-    ports:
-      - 3000:3000
-      - 10000:10000
+  #  ports:
+  #    - 3000:3000
+  #    - 10000:10000
 
-    networks:
-      - smacktalkapp
+  #  networks:
+  #    - smacktalkapp
   #frontend:
   #  build:
   #    context: ./frontend

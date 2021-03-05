@@ -2,13 +2,13 @@
   <section id="content">
     <form action="">
       <h1>SmackTalk</h1>
-    <vgform:Input type="email" class="some-class-here"
-        :Value='vgform.StringPtr{&c.Email}'
-        ></vgform:Input>
+      <vgform:Input type="text" class="some-class-here"
+        :Value='vgform.StringPtr{&c.User.Email}'
+      ></vgform:Input>
 
-            <vgform:Input type="password" class="some-class-here"
-        :Value='vgform.StringPtr{&c.Password}'
-        ></vgform:Input>
+      <vgform:Input type="password" class="some-class-here"
+        :Value='vgform.StringPtr{&c.User.Password}'
+      ></vgform:Input>
 
       <div>
         <input type="submit" value="Log in" @click="c.HandleClick(event)" />
