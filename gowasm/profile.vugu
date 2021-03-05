@@ -1,0 +1,10 @@
+<!-- profile.vugu -->
+<div>
+
+  <ul vg-for='_, item := range c.Items'>
+    <li vg-content="item"></li>
+  </ul>
+
+  <div>Short count: <span vg-content='c.shortItemCount'></span></div>
+
+</div>

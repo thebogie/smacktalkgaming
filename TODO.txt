@@ -1,5 +1,6 @@
 server:
 add jwt check for every call
+fix api calls: hide them behind smacktalk like login
 
 
 
